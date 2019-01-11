@@ -1,0 +1,930 @@
+2019-01-09 14:07:33,853----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:63945/session {"desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "javascriptEnabled": true, "chromeOptions": {"extensions": [], "args": []}}}
+2019-01-09 14:07:35,906----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:07:35,906----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:63945/session/45d564e22dcca634b9baacfaf91b24d8/url {"url": "http://www.5itest.cn/register?goto=/", "sessionId": "45d564e22dcca634b9baacfaf91b24d8"}
+2019-01-09 14:07:54,667----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:07:54,668----> first_ddt_case.py setUp 20: INFO---> thes is log
+2019-01-09 14:07:54,678----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:63945/session/45d564e22dcca634b9baacfaf91b24d8/element {"using": "id", "value": "register_email", "sessionId": "45d564e22dcca634b9baacfaf91b24d8"}
+2019-01-09 14:07:54,705----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:07:54,705----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:63945/session/45d564e22dcca634b9baacfaf91b24d8/element/0.6837584631737361-1/value {"value": ["t", "e", "s", "t", "0", "1", "@", "1", "6", "3", ".", "c", "o", "m"], "id": "0.6837584631737361-1", "sessionId": "45d564e22dcca634b9baacfaf91b24d8"}
+2019-01-09 14:07:54,946----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:07:54,947----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:63945/session/45d564e22dcca634b9baacfaf91b24d8/element {"using": "id", "value": "register_nickname", "sessionId": "45d564e22dcca634b9baacfaf91b24d8"}
+2019-01-09 14:07:54,989----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:07:54,989----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:63945/session/45d564e22dcca634b9baacfaf91b24d8/element/0.6837584631737361-2/value {"value": ["d", "o", "n", "g", "f", "a", "0", "1"], "id": "0.6837584631737361-2", "sessionId": "45d564e22dcca634b9baacfaf91b24d8"}
+2019-01-09 14:07:55,373----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:07:55,374----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:63945/session/45d564e22dcca634b9baacfaf91b24d8/element {"using": "id", "value": "register_password", "sessionId": "45d564e22dcca634b9baacfaf91b24d8"}
+2019-01-09 14:07:55,399----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:07:55,400----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:63945/session/45d564e22dcca634b9baacfaf91b24d8/element/0.6837584631737361-3/value {"value": ["m", "i", "m", "a", "0", "1"], "id": "0.6837584631737361-3", "sessionId": "45d564e22dcca634b9baacfaf91b24d8"}
+2019-01-09 14:07:55,613----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:07:55,614----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:63945/session/45d564e22dcca634b9baacfaf91b24d8/element {"using": "id", "value": "captcha_code", "sessionId": "45d564e22dcca634b9baacfaf91b24d8"}
+2019-01-09 14:07:55,643----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:07:55,643----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:63945/session/45d564e22dcca634b9baacfaf91b24d8/element/0.6837584631737361-4/value {"value": ["c", "o", "d", "e", "0", "1"], "id": "0.6837584631737361-4", "sessionId": "45d564e22dcca634b9baacfaf91b24d8"}
+2019-01-09 14:07:55,761----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:07:55,762----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:63945/session/45d564e22dcca634b9baacfaf91b24d8/element {"using": "id", "value": "register-btn", "sessionId": "45d564e22dcca634b9baacfaf91b24d8"}
+2019-01-09 14:07:55,790----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:07:55,791----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:63945/session/45d564e22dcca634b9baacfaf91b24d8/element/0.6837584631737361-5/click {"id": "0.6837584631737361-5", "sessionId": "45d564e22dcca634b9baacfaf91b24d8"}
+2019-01-09 14:07:56,561----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:07:56,562----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:63945/session/45d564e22dcca634b9baacfaf91b24d8/element {"using": "id", "value": "register_email-error", "sessionId": "45d564e22dcca634b9baacfaf91b24d8"}
+2019-01-09 14:07:56,585----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:07:56,585----> remote_connection.py _request 10: DEBUG---> GET http://127.0.0.1:63945/session/45d564e22dcca634b9baacfaf91b24d8/element/0.6837584631737361-6/text {"id": "0.6837584631737361-6", "sessionId": "45d564e22dcca634b9baacfaf91b24d8"}
+2019-01-09 14:07:56,614----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:07:58,615----> remote_connection.py _request 10: DEBUG---> DELETE http://127.0.0.1:63945/session/45d564e22dcca634b9baacfaf91b24d8/window {"sessionId": "45d564e22dcca634b9baacfaf91b24d8"}
+2019-01-09 14:07:58,927----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:07:59,444----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64014/session {"desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "javascriptEnabled": true, "chromeOptions": {"extensions": [], "args": []}}}
+2019-01-09 14:08:01,303----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:08:01,304----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64014/session/beb44b801a4966b9e35a8da667da0f0e/url {"url": "http://www.5itest.cn/register?goto=/", "sessionId": "beb44b801a4966b9e35a8da667da0f0e"}
+2019-01-09 14:08:14,338----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:08:14,338----> first_ddt_case.py setUp 20: INFO---> thes is log
+2019-01-09 14:08:14,340----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64014/session/beb44b801a4966b9e35a8da667da0f0e/element {"using": "id", "value": "register_email", "sessionId": "beb44b801a4966b9e35a8da667da0f0e"}
+2019-01-09 14:08:14,368----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:08:14,369----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64014/session/beb44b801a4966b9e35a8da667da0f0e/element/0.5319673957933013-1/value {"value": ["t", "e", "s", "t", "0", "2", "@", "1", "6", "4", ".", "c", "o", "m"], "id": "0.5319673957933013-1", "sessionId": "beb44b801a4966b9e35a8da667da0f0e"}
+2019-01-09 14:08:14,610----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:08:14,611----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64014/session/beb44b801a4966b9e35a8da667da0f0e/element {"using": "id", "value": "register_nickname", "sessionId": "beb44b801a4966b9e35a8da667da0f0e"}
+2019-01-09 14:08:14,634----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:08:14,635----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64014/session/beb44b801a4966b9e35a8da667da0f0e/element/0.5319673957933013-2/value {"value": ["d", "o", "n", "g", "f", "a", "0", "2"], "id": "0.5319673957933013-2", "sessionId": "beb44b801a4966b9e35a8da667da0f0e"}
+2019-01-09 14:08:14,909----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:08:14,910----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64014/session/beb44b801a4966b9e35a8da667da0f0e/element {"using": "id", "value": "register_password", "sessionId": "beb44b801a4966b9e35a8da667da0f0e"}
+2019-01-09 14:08:14,941----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:08:14,942----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64014/session/beb44b801a4966b9e35a8da667da0f0e/element/0.5319673957933013-3/value {"value": ["m", "i", "m", "a", "0", "2"], "id": "0.5319673957933013-3", "sessionId": "beb44b801a4966b9e35a8da667da0f0e"}
+2019-01-09 14:08:15,187----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:08:15,189----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64014/session/beb44b801a4966b9e35a8da667da0f0e/element {"using": "id", "value": "captcha_code", "sessionId": "beb44b801a4966b9e35a8da667da0f0e"}
+2019-01-09 14:08:15,227----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:08:15,228----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64014/session/beb44b801a4966b9e35a8da667da0f0e/element/0.5319673957933013-4/value {"value": ["c", "o", "d", "e", "0", "2"], "id": "0.5319673957933013-4", "sessionId": "beb44b801a4966b9e35a8da667da0f0e"}
+2019-01-09 14:08:15,344----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:08:15,346----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64014/session/beb44b801a4966b9e35a8da667da0f0e/element {"using": "id", "value": "register-btn", "sessionId": "beb44b801a4966b9e35a8da667da0f0e"}
+2019-01-09 14:08:15,373----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:08:15,373----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64014/session/beb44b801a4966b9e35a8da667da0f0e/element/0.5319673957933013-5/click {"id": "0.5319673957933013-5", "sessionId": "beb44b801a4966b9e35a8da667da0f0e"}
+2019-01-09 14:08:16,217----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:08:16,219----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64014/session/beb44b801a4966b9e35a8da667da0f0e/element {"using": "id", "value": "register_nickname-error", "sessionId": "beb44b801a4966b9e35a8da667da0f0e"}
+2019-01-09 14:08:16,247----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:08:18,248----> remote_connection.py _request 10: DEBUG---> GET http://127.0.0.1:64014/session/beb44b801a4966b9e35a8da667da0f0e/screenshot {"sessionId": "beb44b801a4966b9e35a8da667da0f0e"}
+2019-01-09 14:08:18,514----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:08:18,518----> remote_connection.py _request 10: DEBUG---> DELETE http://127.0.0.1:64014/session/beb44b801a4966b9e35a8da667da0f0e/window {"sessionId": "beb44b801a4966b9e35a8da667da0f0e"}
+2019-01-09 14:08:18,744----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:08:19,274----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64074/session {"desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "javascriptEnabled": true, "chromeOptions": {"extensions": [], "args": []}}}
+2019-01-09 14:08:21,082----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:08:21,082----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64074/session/b3c23a0431fdd0097e240fe639e375c8/url {"url": "http://www.5itest.cn/register?goto=/", "sessionId": "b3c23a0431fdd0097e240fe639e375c8"}
+2019-01-09 14:08:33,933----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:08:33,934----> first_ddt_case.py setUp 20: INFO---> thes is log
+2019-01-09 14:08:33,935----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64074/session/b3c23a0431fdd0097e240fe639e375c8/element {"using": "id", "value": "register_email", "sessionId": "b3c23a0431fdd0097e240fe639e375c8"}
+2019-01-09 14:08:33,961----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:08:33,961----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64074/session/b3c23a0431fdd0097e240fe639e375c8/element/0.28484033435593226-1/value {"value": ["t", "e", "s", "t", "0", "3", "@", "1", "6", "5", ".", "c", "o", "m"], "id": "0.28484033435593226-1", "sessionId": "b3c23a0431fdd0097e240fe639e375c8"}
+2019-01-09 14:08:34,175----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:08:34,176----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64074/session/b3c23a0431fdd0097e240fe639e375c8/element {"using": "id", "value": "register_nickname", "sessionId": "b3c23a0431fdd0097e240fe639e375c8"}
+2019-01-09 14:08:34,199----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:08:34,199----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64074/session/b3c23a0431fdd0097e240fe639e375c8/element/0.28484033435593226-2/value {"value": ["d", "o", "n", "g", "f", "a", "0", "3"], "id": "0.28484033435593226-2", "sessionId": "b3c23a0431fdd0097e240fe639e375c8"}
+2019-01-09 14:08:34,459----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:08:34,460----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64074/session/b3c23a0431fdd0097e240fe639e375c8/element {"using": "id", "value": "register_password", "sessionId": "b3c23a0431fdd0097e240fe639e375c8"}
+2019-01-09 14:08:34,482----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:08:34,482----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64074/session/b3c23a0431fdd0097e240fe639e375c8/element/0.28484033435593226-3/value {"value": ["m", "i", "m", "a", "0", "3"], "id": "0.28484033435593226-3", "sessionId": "b3c23a0431fdd0097e240fe639e375c8"}
+2019-01-09 14:08:34,723----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:08:34,724----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64074/session/b3c23a0431fdd0097e240fe639e375c8/element {"using": "id", "value": "captcha_code", "sessionId": "b3c23a0431fdd0097e240fe639e375c8"}
+2019-01-09 14:08:34,752----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:08:34,753----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64074/session/b3c23a0431fdd0097e240fe639e375c8/element/0.28484033435593226-4/value {"value": ["c", "o", "d", "e", "0", "3"], "id": "0.28484033435593226-4", "sessionId": "b3c23a0431fdd0097e240fe639e375c8"}
+2019-01-09 14:08:34,895----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:08:34,896----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64074/session/b3c23a0431fdd0097e240fe639e375c8/element {"using": "id", "value": "register-btn", "sessionId": "b3c23a0431fdd0097e240fe639e375c8"}
+2019-01-09 14:08:34,928----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:08:34,928----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64074/session/b3c23a0431fdd0097e240fe639e375c8/element/0.28484033435593226-5/click {"id": "0.28484033435593226-5", "sessionId": "b3c23a0431fdd0097e240fe639e375c8"}
+2019-01-09 14:08:36,004----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:08:36,005----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64074/session/b3c23a0431fdd0097e240fe639e375c8/element {"using": "id", "value": "register_password-error", "sessionId": "b3c23a0431fdd0097e240fe639e375c8"}
+2019-01-09 14:08:36,084----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:08:38,085----> remote_connection.py _request 10: DEBUG---> GET http://127.0.0.1:64074/session/b3c23a0431fdd0097e240fe639e375c8/screenshot {"sessionId": "b3c23a0431fdd0097e240fe639e375c8"}
+2019-01-09 14:08:38,365----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:08:38,370----> remote_connection.py _request 10: DEBUG---> DELETE http://127.0.0.1:64074/session/b3c23a0431fdd0097e240fe639e375c8/window {"sessionId": "b3c23a0431fdd0097e240fe639e375c8"}
+2019-01-09 14:08:38,621----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:08:40,925----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64129/session {"desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "javascriptEnabled": true, "chromeOptions": {"extensions": [], "args": []}}}
+2019-01-09 14:08:42,918----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:08:42,918----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64129/session/ffcb676b90c17cf84d49e5ad66d89c5a/url {"url": "http://www.5itest.cn/register?goto=/", "sessionId": "ffcb676b90c17cf84d49e5ad66d89c5a"}
+2019-01-09 14:08:55,353----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:08:55,354----> first_ddt_case.py setUp 20: INFO---> thes is log
+2019-01-09 14:08:55,355----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64129/session/ffcb676b90c17cf84d49e5ad66d89c5a/element {"using": "id", "value": "register_email", "sessionId": "ffcb676b90c17cf84d49e5ad66d89c5a"}
+2019-01-09 14:08:55,382----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:08:55,383----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64129/session/ffcb676b90c17cf84d49e5ad66d89c5a/element/0.09967460354150592-1/value {"value": ["t", "e", "s", "t", "0", "1", "@", "1", "6", "3", ".", "c", "o", "m"], "id": "0.09967460354150592-1", "sessionId": "ffcb676b90c17cf84d49e5ad66d89c5a"}
+2019-01-09 14:08:55,618----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:08:55,619----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64129/session/ffcb676b90c17cf84d49e5ad66d89c5a/element {"using": "id", "value": "register_nickname", "sessionId": "ffcb676b90c17cf84d49e5ad66d89c5a"}
+2019-01-09 14:08:55,649----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:08:55,649----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64129/session/ffcb676b90c17cf84d49e5ad66d89c5a/element/0.09967460354150592-2/value {"value": ["d", "o", "n", "g", "f", "a", "0", "1"], "id": "0.09967460354150592-2", "sessionId": "ffcb676b90c17cf84d49e5ad66d89c5a"}
+2019-01-09 14:08:55,944----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:08:55,945----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64129/session/ffcb676b90c17cf84d49e5ad66d89c5a/element {"using": "id", "value": "register_password", "sessionId": "ffcb676b90c17cf84d49e5ad66d89c5a"}
+2019-01-09 14:08:55,967----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:08:55,968----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64129/session/ffcb676b90c17cf84d49e5ad66d89c5a/element/0.09967460354150592-3/value {"value": ["m", "i", "m", "a", "0", "1"], "id": "0.09967460354150592-3", "sessionId": "ffcb676b90c17cf84d49e5ad66d89c5a"}
+2019-01-09 14:08:56,209----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:08:56,210----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64129/session/ffcb676b90c17cf84d49e5ad66d89c5a/element {"using": "id", "value": "captcha_code", "sessionId": "ffcb676b90c17cf84d49e5ad66d89c5a"}
+2019-01-09 14:08:56,234----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:08:56,235----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64129/session/ffcb676b90c17cf84d49e5ad66d89c5a/element/0.09967460354150592-4/value {"value": ["c", "o", "d", "e", "0", "1"], "id": "0.09967460354150592-4", "sessionId": "ffcb676b90c17cf84d49e5ad66d89c5a"}
+2019-01-09 14:08:56,380----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:08:56,382----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64129/session/ffcb676b90c17cf84d49e5ad66d89c5a/element {"using": "id", "value": "register-btn", "sessionId": "ffcb676b90c17cf84d49e5ad66d89c5a"}
+2019-01-09 14:08:56,413----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:08:56,414----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64129/session/ffcb676b90c17cf84d49e5ad66d89c5a/element/0.09967460354150592-5/click {"id": "0.09967460354150592-5", "sessionId": "ffcb676b90c17cf84d49e5ad66d89c5a"}
+2019-01-09 14:08:57,195----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:08:57,196----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64129/session/ffcb676b90c17cf84d49e5ad66d89c5a/element {"using": "id", "value": "register_email-error", "sessionId": "ffcb676b90c17cf84d49e5ad66d89c5a"}
+2019-01-09 14:08:57,223----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:08:57,223----> remote_connection.py _request 10: DEBUG---> GET http://127.0.0.1:64129/session/ffcb676b90c17cf84d49e5ad66d89c5a/element/0.09967460354150592-6/text {"id": "0.09967460354150592-6", "sessionId": "ffcb676b90c17cf84d49e5ad66d89c5a"}
+2019-01-09 14:08:57,247----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:08:59,247----> remote_connection.py _request 10: DEBUG---> DELETE http://127.0.0.1:64129/session/ffcb676b90c17cf84d49e5ad66d89c5a/window {"sessionId": "ffcb676b90c17cf84d49e5ad66d89c5a"}
+2019-01-09 14:08:59,620----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:09:00,136----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64186/session {"desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "javascriptEnabled": true, "chromeOptions": {"extensions": [], "args": []}}}
+2019-01-09 14:09:02,207----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:09:02,207----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64186/session/5fe178e5d1d3d8804061f42228f924c7/url {"url": "http://www.5itest.cn/register?goto=/", "sessionId": "5fe178e5d1d3d8804061f42228f924c7"}
+2019-01-09 14:09:14,622----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:09:14,622----> first_ddt_case.py setUp 20: INFO---> thes is log
+2019-01-09 14:09:14,624----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64186/session/5fe178e5d1d3d8804061f42228f924c7/element {"using": "id", "value": "register_email", "sessionId": "5fe178e5d1d3d8804061f42228f924c7"}
+2019-01-09 14:09:14,792----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:09:14,792----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64186/session/5fe178e5d1d3d8804061f42228f924c7/element/0.5554050621861315-1/value {"value": ["t", "e", "s", "t", "0", "2", "@", "1", "6", "4", ".", "c", "o", "m"], "id": "0.5554050621861315-1", "sessionId": "5fe178e5d1d3d8804061f42228f924c7"}
+2019-01-09 14:09:15,016----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:09:15,017----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64186/session/5fe178e5d1d3d8804061f42228f924c7/element {"using": "id", "value": "register_nickname", "sessionId": "5fe178e5d1d3d8804061f42228f924c7"}
+2019-01-09 14:09:15,042----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:09:15,043----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64186/session/5fe178e5d1d3d8804061f42228f924c7/element/0.5554050621861315-2/value {"value": ["d", "o", "n", "g", "f", "a", "0", "2"], "id": "0.5554050621861315-2", "sessionId": "5fe178e5d1d3d8804061f42228f924c7"}
+2019-01-09 14:09:15,318----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:09:15,319----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64186/session/5fe178e5d1d3d8804061f42228f924c7/element {"using": "id", "value": "register_password", "sessionId": "5fe178e5d1d3d8804061f42228f924c7"}
+2019-01-09 14:09:15,345----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:09:15,345----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64186/session/5fe178e5d1d3d8804061f42228f924c7/element/0.5554050621861315-3/value {"value": ["m", "i", "m", "a", "0", "2"], "id": "0.5554050621861315-3", "sessionId": "5fe178e5d1d3d8804061f42228f924c7"}
+2019-01-09 14:09:15,560----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:09:15,561----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64186/session/5fe178e5d1d3d8804061f42228f924c7/element {"using": "id", "value": "captcha_code", "sessionId": "5fe178e5d1d3d8804061f42228f924c7"}
+2019-01-09 14:09:15,591----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:09:15,591----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64186/session/5fe178e5d1d3d8804061f42228f924c7/element/0.5554050621861315-4/value {"value": ["c", "o", "d", "e", "0", "2"], "id": "0.5554050621861315-4", "sessionId": "5fe178e5d1d3d8804061f42228f924c7"}
+2019-01-09 14:09:15,761----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:09:15,762----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64186/session/5fe178e5d1d3d8804061f42228f924c7/element {"using": "id", "value": "register-btn", "sessionId": "5fe178e5d1d3d8804061f42228f924c7"}
+2019-01-09 14:09:15,798----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:09:15,799----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64186/session/5fe178e5d1d3d8804061f42228f924c7/element/0.5554050621861315-5/click {"id": "0.5554050621861315-5", "sessionId": "5fe178e5d1d3d8804061f42228f924c7"}
+2019-01-09 14:09:16,590----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:09:16,591----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64186/session/5fe178e5d1d3d8804061f42228f924c7/element {"using": "id", "value": "register_nickname-error", "sessionId": "5fe178e5d1d3d8804061f42228f924c7"}
+2019-01-09 14:09:16,612----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:09:18,613----> remote_connection.py _request 10: DEBUG---> GET http://127.0.0.1:64186/session/5fe178e5d1d3d8804061f42228f924c7/screenshot {"sessionId": "5fe178e5d1d3d8804061f42228f924c7"}
+2019-01-09 14:09:18,921----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:09:18,924----> remote_connection.py _request 10: DEBUG---> DELETE http://127.0.0.1:64186/session/5fe178e5d1d3d8804061f42228f924c7/window {"sessionId": "5fe178e5d1d3d8804061f42228f924c7"}
+2019-01-09 14:09:19,141----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:09:19,658----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64236/session {"desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "javascriptEnabled": true, "chromeOptions": {"extensions": [], "args": []}}}
+2019-01-09 14:09:21,507----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:09:21,508----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64236/session/5be582e712564d5f9617ced9b9c08ab0/url {"url": "http://www.5itest.cn/register?goto=/", "sessionId": "5be582e712564d5f9617ced9b9c08ab0"}
+2019-01-09 14:09:33,726----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:09:33,727----> first_ddt_case.py setUp 20: INFO---> thes is log
+2019-01-09 14:09:33,728----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64236/session/5be582e712564d5f9617ced9b9c08ab0/element {"using": "id", "value": "register_email", "sessionId": "5be582e712564d5f9617ced9b9c08ab0"}
+2019-01-09 14:09:33,761----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:09:33,761----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64236/session/5be582e712564d5f9617ced9b9c08ab0/element/0.767117319050947-1/value {"value": ["t", "e", "s", "t", "0", "3", "@", "1", "6", "5", ".", "c", "o", "m"], "id": "0.767117319050947-1", "sessionId": "5be582e712564d5f9617ced9b9c08ab0"}
+2019-01-09 14:09:33,910----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:09:33,911----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64236/session/5be582e712564d5f9617ced9b9c08ab0/element {"using": "id", "value": "register_nickname", "sessionId": "5be582e712564d5f9617ced9b9c08ab0"}
+2019-01-09 14:09:33,932----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:09:33,933----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64236/session/5be582e712564d5f9617ced9b9c08ab0/element/0.767117319050947-2/value {"value": ["d", "o", "n", "g", "f", "a", "0", "3"], "id": "0.767117319050947-2", "sessionId": "5be582e712564d5f9617ced9b9c08ab0"}
+2019-01-09 14:09:34,180----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:09:34,181----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64236/session/5be582e712564d5f9617ced9b9c08ab0/element {"using": "id", "value": "register_password", "sessionId": "5be582e712564d5f9617ced9b9c08ab0"}
+2019-01-09 14:09:34,202----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:09:34,203----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64236/session/5be582e712564d5f9617ced9b9c08ab0/element/0.767117319050947-3/value {"value": ["m", "i", "m", "a", "0", "3"], "id": "0.767117319050947-3", "sessionId": "5be582e712564d5f9617ced9b9c08ab0"}
+2019-01-09 14:09:34,457----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:09:34,459----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64236/session/5be582e712564d5f9617ced9b9c08ab0/element {"using": "id", "value": "captcha_code", "sessionId": "5be582e712564d5f9617ced9b9c08ab0"}
+2019-01-09 14:09:34,483----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:09:34,483----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64236/session/5be582e712564d5f9617ced9b9c08ab0/element/0.767117319050947-4/value {"value": ["c", "o", "d", "e", "0", "3"], "id": "0.767117319050947-4", "sessionId": "5be582e712564d5f9617ced9b9c08ab0"}
+2019-01-09 14:09:34,582----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:09:34,583----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64236/session/5be582e712564d5f9617ced9b9c08ab0/element {"using": "id", "value": "register-btn", "sessionId": "5be582e712564d5f9617ced9b9c08ab0"}
+2019-01-09 14:09:34,608----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:09:34,608----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64236/session/5be582e712564d5f9617ced9b9c08ab0/element/0.767117319050947-5/click {"id": "0.767117319050947-5", "sessionId": "5be582e712564d5f9617ced9b9c08ab0"}
+2019-01-09 14:09:35,372----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:09:35,374----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64236/session/5be582e712564d5f9617ced9b9c08ab0/element {"using": "id", "value": "register_password-error", "sessionId": "5be582e712564d5f9617ced9b9c08ab0"}
+2019-01-09 14:09:35,397----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:09:37,397----> remote_connection.py _request 10: DEBUG---> GET http://127.0.0.1:64236/session/5be582e712564d5f9617ced9b9c08ab0/screenshot {"sessionId": "5be582e712564d5f9617ced9b9c08ab0"}
+2019-01-09 14:09:37,704----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:09:37,707----> remote_connection.py _request 10: DEBUG---> DELETE http://127.0.0.1:64236/session/5be582e712564d5f9617ced9b9c08ab0/window {"sessionId": "5be582e712564d5f9617ced9b9c08ab0"}
+2019-01-09 14:09:37,962----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:14:47,313----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64800/session {"desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "javascriptEnabled": true, "chromeOptions": {"extensions": [], "args": []}}}
+2019-01-09 14:14:49,452----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:14:49,452----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64800/session/95950c5850b2ae878ddba15ccaeee9bc/url {"url": "http://www.5itest.cn/register?goto=/", "sessionId": "95950c5850b2ae878ddba15ccaeee9bc"}
+2019-01-09 14:15:01,937----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:15:01,937----> first_ddt_case.py setUp 20: INFO---> thes is log
+2019-01-09 14:15:01,939----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64800/session/95950c5850b2ae878ddba15ccaeee9bc/element {"using": "id", "value": "register_email", "sessionId": "95950c5850b2ae878ddba15ccaeee9bc"}
+2019-01-09 14:15:01,964----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:15:01,964----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64800/session/95950c5850b2ae878ddba15ccaeee9bc/element/0.8643284304504726-1/value {"value": ["t", "e", "s", "t", "0", "1", "@", "1", "6", "3", ".", "c", "o", "m"], "id": "0.8643284304504726-1", "sessionId": "95950c5850b2ae878ddba15ccaeee9bc"}
+2019-01-09 14:15:02,194----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:15:02,195----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64800/session/95950c5850b2ae878ddba15ccaeee9bc/element {"using": "id", "value": "register_nickname", "sessionId": "95950c5850b2ae878ddba15ccaeee9bc"}
+2019-01-09 14:15:02,228----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:15:02,228----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64800/session/95950c5850b2ae878ddba15ccaeee9bc/element/0.8643284304504726-2/value {"value": ["d", "o", "n", "g", "f", "a", "0", "1"], "id": "0.8643284304504726-2", "sessionId": "95950c5850b2ae878ddba15ccaeee9bc"}
+2019-01-09 14:15:02,579----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:15:02,580----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64800/session/95950c5850b2ae878ddba15ccaeee9bc/element {"using": "id", "value": "register_password", "sessionId": "95950c5850b2ae878ddba15ccaeee9bc"}
+2019-01-09 14:15:02,601----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:15:02,601----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64800/session/95950c5850b2ae878ddba15ccaeee9bc/element/0.8643284304504726-3/value {"value": ["m", "i", "m", "a", "0", "1"], "id": "0.8643284304504726-3", "sessionId": "95950c5850b2ae878ddba15ccaeee9bc"}
+2019-01-09 14:15:02,860----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:15:02,861----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64800/session/95950c5850b2ae878ddba15ccaeee9bc/element {"using": "id", "value": "captcha_code", "sessionId": "95950c5850b2ae878ddba15ccaeee9bc"}
+2019-01-09 14:15:02,883----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:15:02,883----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64800/session/95950c5850b2ae878ddba15ccaeee9bc/element/0.8643284304504726-4/value {"value": ["c", "o", "d", "e", "0", "1"], "id": "0.8643284304504726-4", "sessionId": "95950c5850b2ae878ddba15ccaeee9bc"}
+2019-01-09 14:15:02,987----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:15:02,988----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64800/session/95950c5850b2ae878ddba15ccaeee9bc/element {"using": "id", "value": "register-btn", "sessionId": "95950c5850b2ae878ddba15ccaeee9bc"}
+2019-01-09 14:15:03,007----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:15:03,007----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64800/session/95950c5850b2ae878ddba15ccaeee9bc/element/0.8643284304504726-5/click {"id": "0.8643284304504726-5", "sessionId": "95950c5850b2ae878ddba15ccaeee9bc"}
+2019-01-09 14:15:03,781----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:15:03,782----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64800/session/95950c5850b2ae878ddba15ccaeee9bc/element {"using": "id", "value": "register_email-error", "sessionId": "95950c5850b2ae878ddba15ccaeee9bc"}
+2019-01-09 14:15:03,802----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:15:03,802----> remote_connection.py _request 10: DEBUG---> GET http://127.0.0.1:64800/session/95950c5850b2ae878ddba15ccaeee9bc/element/0.8643284304504726-6/text {"id": "0.8643284304504726-6", "sessionId": "95950c5850b2ae878ddba15ccaeee9bc"}
+2019-01-09 14:15:03,834----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:15:05,835----> remote_connection.py _request 10: DEBUG---> DELETE http://127.0.0.1:64800/session/95950c5850b2ae878ddba15ccaeee9bc/window {"sessionId": "95950c5850b2ae878ddba15ccaeee9bc"}
+2019-01-09 14:15:06,189----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:15:06,709----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64855/session {"desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "javascriptEnabled": true, "chromeOptions": {"extensions": [], "args": []}}}
+2019-01-09 14:15:08,602----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:15:08,602----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64855/session/c588eeaa1ecd737d46b9d4b970d339bb/url {"url": "http://www.5itest.cn/register?goto=/", "sessionId": "c588eeaa1ecd737d46b9d4b970d339bb"}
+2019-01-09 14:15:21,140----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:15:21,140----> first_ddt_case.py setUp 20: INFO---> thes is log
+2019-01-09 14:15:21,142----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64855/session/c588eeaa1ecd737d46b9d4b970d339bb/element {"using": "id", "value": "register_email", "sessionId": "c588eeaa1ecd737d46b9d4b970d339bb"}
+2019-01-09 14:15:21,327----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:15:21,328----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64855/session/c588eeaa1ecd737d46b9d4b970d339bb/element/0.34687166506745704-1/value {"value": ["t", "e", "s", "t", "0", "2", "@", "1", "6", "4", ".", "c", "o", "m"], "id": "0.34687166506745704-1", "sessionId": "c588eeaa1ecd737d46b9d4b970d339bb"}
+2019-01-09 14:15:21,561----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:15:21,562----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64855/session/c588eeaa1ecd737d46b9d4b970d339bb/element {"using": "id", "value": "register_nickname", "sessionId": "c588eeaa1ecd737d46b9d4b970d339bb"}
+2019-01-09 14:15:21,589----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:15:21,589----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64855/session/c588eeaa1ecd737d46b9d4b970d339bb/element/0.34687166506745704-2/value {"value": ["d", "o", "n", "g", "f", "a", "0", "2"], "id": "0.34687166506745704-2", "sessionId": "c588eeaa1ecd737d46b9d4b970d339bb"}
+2019-01-09 14:15:21,880----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:15:21,882----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64855/session/c588eeaa1ecd737d46b9d4b970d339bb/element {"using": "id", "value": "register_password", "sessionId": "c588eeaa1ecd737d46b9d4b970d339bb"}
+2019-01-09 14:15:21,909----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:15:21,909----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64855/session/c588eeaa1ecd737d46b9d4b970d339bb/element/0.34687166506745704-3/value {"value": ["m", "i", "m", "a", "0", "2"], "id": "0.34687166506745704-3", "sessionId": "c588eeaa1ecd737d46b9d4b970d339bb"}
+2019-01-09 14:15:22,206----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:15:22,207----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64855/session/c588eeaa1ecd737d46b9d4b970d339bb/element {"using": "id", "value": "captcha_code", "sessionId": "c588eeaa1ecd737d46b9d4b970d339bb"}
+2019-01-09 14:15:22,254----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:15:22,254----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64855/session/c588eeaa1ecd737d46b9d4b970d339bb/element/0.34687166506745704-4/value {"value": ["c", "o", "d", "e", "0", "2"], "id": "0.34687166506745704-4", "sessionId": "c588eeaa1ecd737d46b9d4b970d339bb"}
+2019-01-09 14:15:22,423----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:15:22,425----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64855/session/c588eeaa1ecd737d46b9d4b970d339bb/element {"using": "id", "value": "register-btn", "sessionId": "c588eeaa1ecd737d46b9d4b970d339bb"}
+2019-01-09 14:15:22,460----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:15:22,461----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64855/session/c588eeaa1ecd737d46b9d4b970d339bb/element/0.34687166506745704-5/click {"id": "0.34687166506745704-5", "sessionId": "c588eeaa1ecd737d46b9d4b970d339bb"}
+2019-01-09 14:15:23,307----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:15:23,309----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64855/session/c588eeaa1ecd737d46b9d4b970d339bb/element {"using": "id", "value": "register_nickname-error", "sessionId": "c588eeaa1ecd737d46b9d4b970d339bb"}
+2019-01-09 14:15:23,350----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:15:25,351----> remote_connection.py _request 10: DEBUG---> GET http://127.0.0.1:64855/session/c588eeaa1ecd737d46b9d4b970d339bb/screenshot {"sessionId": "c588eeaa1ecd737d46b9d4b970d339bb"}
+2019-01-09 14:15:25,659----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:15:25,662----> remote_connection.py _request 10: DEBUG---> DELETE http://127.0.0.1:64855/session/c588eeaa1ecd737d46b9d4b970d339bb/window {"sessionId": "c588eeaa1ecd737d46b9d4b970d339bb"}
+2019-01-09 14:15:25,930----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:15:26,452----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64910/session {"desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "javascriptEnabled": true, "chromeOptions": {"extensions": [], "args": []}}}
+2019-01-09 14:15:28,351----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:15:28,351----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64910/session/29ddba8546d3db5f99168d308c858180/url {"url": "http://www.5itest.cn/register?goto=/", "sessionId": "29ddba8546d3db5f99168d308c858180"}
+2019-01-09 14:15:41,847----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:15:41,847----> first_ddt_case.py setUp 20: INFO---> thes is log
+2019-01-09 14:15:41,849----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64910/session/29ddba8546d3db5f99168d308c858180/element {"using": "id", "value": "register_email", "sessionId": "29ddba8546d3db5f99168d308c858180"}
+2019-01-09 14:15:41,886----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:15:41,886----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64910/session/29ddba8546d3db5f99168d308c858180/element/0.4815330607972501-1/value {"value": ["t", "e", "s", "t", "0", "3", "@", "1", "6", "5", ".", "c", "o", "m"], "id": "0.4815330607972501-1", "sessionId": "29ddba8546d3db5f99168d308c858180"}
+2019-01-09 14:15:42,273----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:15:42,274----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64910/session/29ddba8546d3db5f99168d308c858180/element {"using": "id", "value": "register_nickname", "sessionId": "29ddba8546d3db5f99168d308c858180"}
+2019-01-09 14:15:42,302----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:15:42,302----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64910/session/29ddba8546d3db5f99168d308c858180/element/0.4815330607972501-2/value {"value": ["d", "o", "n", "g", "f", "a", "0", "3"], "id": "0.4815330607972501-2", "sessionId": "29ddba8546d3db5f99168d308c858180"}
+2019-01-09 14:15:42,811----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:15:42,812----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64910/session/29ddba8546d3db5f99168d308c858180/element {"using": "id", "value": "register_password", "sessionId": "29ddba8546d3db5f99168d308c858180"}
+2019-01-09 14:15:42,842----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:15:42,842----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64910/session/29ddba8546d3db5f99168d308c858180/element/0.4815330607972501-3/value {"value": ["m", "i", "m", "a", "0", "3"], "id": "0.4815330607972501-3", "sessionId": "29ddba8546d3db5f99168d308c858180"}
+2019-01-09 14:15:43,112----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:15:43,114----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64910/session/29ddba8546d3db5f99168d308c858180/element {"using": "id", "value": "captcha_code", "sessionId": "29ddba8546d3db5f99168d308c858180"}
+2019-01-09 14:15:43,149----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:15:43,150----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64910/session/29ddba8546d3db5f99168d308c858180/element/0.4815330607972501-4/value {"value": ["c", "o", "d", "e", "0", "3"], "id": "0.4815330607972501-4", "sessionId": "29ddba8546d3db5f99168d308c858180"}
+2019-01-09 14:15:43,295----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:15:43,297----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64910/session/29ddba8546d3db5f99168d308c858180/element {"using": "id", "value": "register-btn", "sessionId": "29ddba8546d3db5f99168d308c858180"}
+2019-01-09 14:15:43,326----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:15:43,326----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64910/session/29ddba8546d3db5f99168d308c858180/element/0.4815330607972501-5/click {"id": "0.4815330607972501-5", "sessionId": "29ddba8546d3db5f99168d308c858180"}
+2019-01-09 14:15:44,071----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:15:44,072----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:64910/session/29ddba8546d3db5f99168d308c858180/element {"using": "id", "value": "register_password-error", "sessionId": "29ddba8546d3db5f99168d308c858180"}
+2019-01-09 14:15:44,095----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:15:46,096----> remote_connection.py _request 10: DEBUG---> GET http://127.0.0.1:64910/session/29ddba8546d3db5f99168d308c858180/screenshot {"sessionId": "29ddba8546d3db5f99168d308c858180"}
+2019-01-09 14:15:46,377----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:15:46,380----> remote_connection.py _request 10: DEBUG---> DELETE http://127.0.0.1:64910/session/29ddba8546d3db5f99168d308c858180/window {"sessionId": "29ddba8546d3db5f99168d308c858180"}
+2019-01-09 14:15:46,640----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:21:11,545----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:65468/session {"desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "javascriptEnabled": true, "chromeOptions": {"extensions": [], "args": []}}}
+2019-01-09 14:21:13,657----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:21:13,658----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:65468/session/e288d007839ef322449445ee5d669fc0/url {"url": "http://www.5itest.cn/register?goto=/", "sessionId": "e288d007839ef322449445ee5d669fc0"}
+2019-01-09 14:21:29,747----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:21:29,747----> first_ddt_case.py setUp 20: INFO---> thes is log
+2019-01-09 14:21:29,748----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:65468/session/e288d007839ef322449445ee5d669fc0/element {"using": "id", "value": "register_email", "sessionId": "e288d007839ef322449445ee5d669fc0"}
+2019-01-09 14:21:29,769----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:21:29,769----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:65468/session/e288d007839ef322449445ee5d669fc0/element/0.3370678533087288-1/value {"value": ["t", "e", "s", "t", "0", "1", "@", "1", "6", "3", ".", "c", "o", "m"], "id": "0.3370678533087288-1", "sessionId": "e288d007839ef322449445ee5d669fc0"}
+2019-01-09 14:21:29,895----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:21:29,896----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:65468/session/e288d007839ef322449445ee5d669fc0/element {"using": "id", "value": "register_nickname", "sessionId": "e288d007839ef322449445ee5d669fc0"}
+2019-01-09 14:21:29,914----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:21:29,915----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:65468/session/e288d007839ef322449445ee5d669fc0/element/0.3370678533087288-2/value {"value": ["d", "o", "n", "g", "f", "a", "0", "1"], "id": "0.3370678533087288-2", "sessionId": "e288d007839ef322449445ee5d669fc0"}
+2019-01-09 14:21:30,269----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:21:30,270----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:65468/session/e288d007839ef322449445ee5d669fc0/element {"using": "id", "value": "register_password", "sessionId": "e288d007839ef322449445ee5d669fc0"}
+2019-01-09 14:21:30,290----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:21:30,290----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:65468/session/e288d007839ef322449445ee5d669fc0/element/0.3370678533087288-3/value {"value": ["m", "i", "m", "a", "0", "1"], "id": "0.3370678533087288-3", "sessionId": "e288d007839ef322449445ee5d669fc0"}
+2019-01-09 14:21:30,564----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:21:30,566----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:65468/session/e288d007839ef322449445ee5d669fc0/element {"using": "id", "value": "captcha_code", "sessionId": "e288d007839ef322449445ee5d669fc0"}
+2019-01-09 14:21:30,592----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:21:30,592----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:65468/session/e288d007839ef322449445ee5d669fc0/element/0.3370678533087288-4/value {"value": ["c", "o", "d", "e", "0", "1"], "id": "0.3370678533087288-4", "sessionId": "e288d007839ef322449445ee5d669fc0"}
+2019-01-09 14:21:30,669----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:21:30,669----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:65468/session/e288d007839ef322449445ee5d669fc0/element {"using": "id", "value": "register-btn", "sessionId": "e288d007839ef322449445ee5d669fc0"}
+2019-01-09 14:21:30,687----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:21:30,688----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:65468/session/e288d007839ef322449445ee5d669fc0/element/0.3370678533087288-5/click {"id": "0.3370678533087288-5", "sessionId": "e288d007839ef322449445ee5d669fc0"}
+2019-01-09 14:21:36,618----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:21:36,619----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:65468/session/e288d007839ef322449445ee5d669fc0/element {"using": "id", "value": "register_email-error", "sessionId": "e288d007839ef322449445ee5d669fc0"}
+2019-01-09 14:21:36,641----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:21:36,642----> remote_connection.py _request 10: DEBUG---> GET http://127.0.0.1:65468/session/e288d007839ef322449445ee5d669fc0/element/0.3370678533087288-6/text {"id": "0.3370678533087288-6", "sessionId": "e288d007839ef322449445ee5d669fc0"}
+2019-01-09 14:21:36,669----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:21:38,670----> remote_connection.py _request 10: DEBUG---> DELETE http://127.0.0.1:65468/session/e288d007839ef322449445ee5d669fc0/window {"sessionId": "e288d007839ef322449445ee5d669fc0"}
+2019-01-09 14:21:40,989----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:21:41,516----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:49153/session {"desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "javascriptEnabled": true, "chromeOptions": {"extensions": [], "args": []}}}
+2019-01-09 14:21:43,336----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:21:43,336----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:49153/session/e5c52705eacb5fa9c261006564c0726c/url {"url": "http://www.5itest.cn/register?goto=/", "sessionId": "e5c52705eacb5fa9c261006564c0726c"}
+2019-01-09 14:21:58,955----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:21:58,955----> first_ddt_case.py setUp 20: INFO---> thes is log
+2019-01-09 14:21:58,957----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:49153/session/e5c52705eacb5fa9c261006564c0726c/element {"using": "id", "value": "register_email", "sessionId": "e5c52705eacb5fa9c261006564c0726c"}
+2019-01-09 14:21:58,987----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:21:58,988----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:49153/session/e5c52705eacb5fa9c261006564c0726c/element/0.062034314699405346-1/value {"value": ["t", "e", "s", "t", "0", "2", "@", "1", "6", "4", ".", "c", "o", "m"], "id": "0.062034314699405346-1", "sessionId": "e5c52705eacb5fa9c261006564c0726c"}
+2019-01-09 14:21:59,166----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:21:59,167----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:49153/session/e5c52705eacb5fa9c261006564c0726c/element {"using": "id", "value": "register_nickname", "sessionId": "e5c52705eacb5fa9c261006564c0726c"}
+2019-01-09 14:21:59,193----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:21:59,194----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:49153/session/e5c52705eacb5fa9c261006564c0726c/element/0.062034314699405346-2/value {"value": ["d", "o", "n", "g", "f", "a", "0", "2"], "id": "0.062034314699405346-2", "sessionId": "e5c52705eacb5fa9c261006564c0726c"}
+2019-01-09 14:21:59,551----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:21:59,552----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:49153/session/e5c52705eacb5fa9c261006564c0726c/element {"using": "id", "value": "register_password", "sessionId": "e5c52705eacb5fa9c261006564c0726c"}
+2019-01-09 14:21:59,571----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:21:59,571----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:49153/session/e5c52705eacb5fa9c261006564c0726c/element/0.062034314699405346-3/value {"value": ["m", "i", "m", "a", "0", "2"], "id": "0.062034314699405346-3", "sessionId": "e5c52705eacb5fa9c261006564c0726c"}
+2019-01-09 14:21:59,841----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:21:59,842----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:49153/session/e5c52705eacb5fa9c261006564c0726c/element {"using": "id", "value": "captcha_code", "sessionId": "e5c52705eacb5fa9c261006564c0726c"}
+2019-01-09 14:21:59,862----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:21:59,862----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:49153/session/e5c52705eacb5fa9c261006564c0726c/element/0.062034314699405346-4/value {"value": ["c", "o", "d", "e", "0", "2"], "id": "0.062034314699405346-4", "sessionId": "e5c52705eacb5fa9c261006564c0726c"}
+2019-01-09 14:21:59,946----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:21:59,947----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:49153/session/e5c52705eacb5fa9c261006564c0726c/element {"using": "id", "value": "register-btn", "sessionId": "e5c52705eacb5fa9c261006564c0726c"}
+2019-01-09 14:21:59,966----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:21:59,967----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:49153/session/e5c52705eacb5fa9c261006564c0726c/element/0.062034314699405346-5/click {"id": "0.062034314699405346-5", "sessionId": "e5c52705eacb5fa9c261006564c0726c"}
+2019-01-09 14:22:01,261----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:22:01,262----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:49153/session/e5c52705eacb5fa9c261006564c0726c/element {"using": "id", "value": "register_nickname-error", "sessionId": "e5c52705eacb5fa9c261006564c0726c"}
+2019-01-09 14:22:01,285----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:22:03,286----> remote_connection.py _request 10: DEBUG---> GET http://127.0.0.1:49153/session/e5c52705eacb5fa9c261006564c0726c/screenshot {"sessionId": "e5c52705eacb5fa9c261006564c0726c"}
+2019-01-09 14:22:03,561----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:22:03,565----> remote_connection.py _request 10: DEBUG---> DELETE http://127.0.0.1:49153/session/e5c52705eacb5fa9c261006564c0726c/window {"sessionId": "e5c52705eacb5fa9c261006564c0726c"}
+2019-01-09 14:22:03,787----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:22:04,303----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:49216/session {"desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "javascriptEnabled": true, "chromeOptions": {"extensions": [], "args": []}}}
+2019-01-09 14:22:06,192----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:22:06,192----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:49216/session/72f8a9c5f0ce0738be6e2177d615bbea/url {"url": "http://www.5itest.cn/register?goto=/", "sessionId": "72f8a9c5f0ce0738be6e2177d615bbea"}
+2019-01-09 14:22:23,813----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:22:23,813----> first_ddt_case.py setUp 20: INFO---> thes is log
+2019-01-09 14:22:23,815----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:49216/session/72f8a9c5f0ce0738be6e2177d615bbea/element {"using": "id", "value": "register_email", "sessionId": "72f8a9c5f0ce0738be6e2177d615bbea"}
+2019-01-09 14:22:23,838----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:22:23,838----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:49216/session/72f8a9c5f0ce0738be6e2177d615bbea/element/0.6806435221058162-1/value {"value": ["t", "e", "s", "t", "0", "3", "@", "1", "6", "5", ".", "c", "o", "m"], "id": "0.6806435221058162-1", "sessionId": "72f8a9c5f0ce0738be6e2177d615bbea"}
+2019-01-09 14:22:23,974----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:22:23,975----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:49216/session/72f8a9c5f0ce0738be6e2177d615bbea/element {"using": "id", "value": "register_nickname", "sessionId": "72f8a9c5f0ce0738be6e2177d615bbea"}
+2019-01-09 14:22:23,995----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:22:23,995----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:49216/session/72f8a9c5f0ce0738be6e2177d615bbea/element/0.6806435221058162-2/value {"value": ["d", "o", "n", "g", "f", "a", "0", "3"], "id": "0.6806435221058162-2", "sessionId": "72f8a9c5f0ce0738be6e2177d615bbea"}
+2019-01-09 14:22:24,346----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:22:24,348----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:49216/session/72f8a9c5f0ce0738be6e2177d615bbea/element {"using": "id", "value": "register_password", "sessionId": "72f8a9c5f0ce0738be6e2177d615bbea"}
+2019-01-09 14:22:24,383----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:22:24,383----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:49216/session/72f8a9c5f0ce0738be6e2177d615bbea/element/0.6806435221058162-3/value {"value": ["m", "i", "m", "a", "0", "3"], "id": "0.6806435221058162-3", "sessionId": "72f8a9c5f0ce0738be6e2177d615bbea"}
+2019-01-09 14:22:24,646----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:22:24,647----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:49216/session/72f8a9c5f0ce0738be6e2177d615bbea/element {"using": "id", "value": "captcha_code", "sessionId": "72f8a9c5f0ce0738be6e2177d615bbea"}
+2019-01-09 14:22:24,670----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:22:24,671----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:49216/session/72f8a9c5f0ce0738be6e2177d615bbea/element/0.6806435221058162-4/value {"value": ["c", "o", "d", "e", "0", "3"], "id": "0.6806435221058162-4", "sessionId": "72f8a9c5f0ce0738be6e2177d615bbea"}
+2019-01-09 14:22:24,817----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:22:24,818----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:49216/session/72f8a9c5f0ce0738be6e2177d615bbea/element {"using": "id", "value": "register-btn", "sessionId": "72f8a9c5f0ce0738be6e2177d615bbea"}
+2019-01-09 14:22:24,837----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:22:24,837----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:49216/session/72f8a9c5f0ce0738be6e2177d615bbea/element/0.6806435221058162-5/click {"id": "0.6806435221058162-5", "sessionId": "72f8a9c5f0ce0738be6e2177d615bbea"}
+2019-01-09 14:22:30,935----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:22:30,936----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:49216/session/72f8a9c5f0ce0738be6e2177d615bbea/element {"using": "id", "value": "register_password-error", "sessionId": "72f8a9c5f0ce0738be6e2177d615bbea"}
+2019-01-09 14:22:30,970----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:22:32,971----> remote_connection.py _request 10: DEBUG---> GET http://127.0.0.1:49216/session/72f8a9c5f0ce0738be6e2177d615bbea/screenshot {"sessionId": "72f8a9c5f0ce0738be6e2177d615bbea"}
+2019-01-09 14:22:33,534----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:22:33,537----> remote_connection.py _request 10: DEBUG---> DELETE http://127.0.0.1:49216/session/72f8a9c5f0ce0738be6e2177d615bbea/window {"sessionId": "72f8a9c5f0ce0738be6e2177d615bbea"}
+2019-01-09 14:22:33,767----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:53:26,012----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:51755/session {"desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "javascriptEnabled": true, "chromeOptions": {"extensions": [], "args": []}}}
+2019-01-09 14:53:28,161----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:53:28,162----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:51755/session/167022991f6968e8735114ecffdeed56/url {"url": "http://www.5itest.cn/register?goto=/", "sessionId": "167022991f6968e8735114ecffdeed56"}
+2019-01-09 14:53:42,513----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:53:42,514----> first_ddt_case.py setUp 20: INFO---> thes is log
+2019-01-09 14:53:42,515----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:51755/session/167022991f6968e8735114ecffdeed56/element {"using": "id", "value": "register_email", "sessionId": "167022991f6968e8735114ecffdeed56"}
+2019-01-09 14:53:42,547----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:53:42,548----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:51755/session/167022991f6968e8735114ecffdeed56/element/0.4581515187995828-1/value {"value": ["t", "e", "s", "t", "0", "1", "@", "1", "6", "3", ".", "c", "o", "m"], "id": "0.4581515187995828-1", "sessionId": "167022991f6968e8735114ecffdeed56"}
+2019-01-09 14:53:42,780----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:53:42,781----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:51755/session/167022991f6968e8735114ecffdeed56/element {"using": "id", "value": "register_nickname", "sessionId": "167022991f6968e8735114ecffdeed56"}
+2019-01-09 14:53:42,808----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:53:42,808----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:51755/session/167022991f6968e8735114ecffdeed56/element/0.4581515187995828-2/value {"value": ["d", "o", "n", "g", "f", "a", "0", "1"], "id": "0.4581515187995828-2", "sessionId": "167022991f6968e8735114ecffdeed56"}
+2019-01-09 14:53:43,155----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:53:43,156----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:51755/session/167022991f6968e8735114ecffdeed56/element {"using": "id", "value": "register_password", "sessionId": "167022991f6968e8735114ecffdeed56"}
+2019-01-09 14:53:43,179----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:53:43,180----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:51755/session/167022991f6968e8735114ecffdeed56/element/0.4581515187995828-3/value {"value": ["m", "i", "m", "a", "0", "1"], "id": "0.4581515187995828-3", "sessionId": "167022991f6968e8735114ecffdeed56"}
+2019-01-09 14:53:43,384----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:53:43,385----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:51755/session/167022991f6968e8735114ecffdeed56/element {"using": "id", "value": "captcha_code", "sessionId": "167022991f6968e8735114ecffdeed56"}
+2019-01-09 14:53:43,411----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:53:43,412----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:51755/session/167022991f6968e8735114ecffdeed56/element/0.4581515187995828-4/value {"value": ["c", "o", "d", "e", "0", "1"], "id": "0.4581515187995828-4", "sessionId": "167022991f6968e8735114ecffdeed56"}
+2019-01-09 14:53:43,522----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:53:43,523----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:51755/session/167022991f6968e8735114ecffdeed56/element {"using": "id", "value": "register-btn", "sessionId": "167022991f6968e8735114ecffdeed56"}
+2019-01-09 14:53:43,547----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:53:43,548----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:51755/session/167022991f6968e8735114ecffdeed56/element/0.4581515187995828-5/click {"id": "0.4581515187995828-5", "sessionId": "167022991f6968e8735114ecffdeed56"}
+2019-01-09 14:53:44,393----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:53:44,395----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:51755/session/167022991f6968e8735114ecffdeed56/element {"using": "id", "value": "register_email-error", "sessionId": "167022991f6968e8735114ecffdeed56"}
+2019-01-09 14:53:44,420----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:53:44,420----> remote_connection.py _request 10: DEBUG---> GET http://127.0.0.1:51755/session/167022991f6968e8735114ecffdeed56/element/0.4581515187995828-6/text {"id": "0.4581515187995828-6", "sessionId": "167022991f6968e8735114ecffdeed56"}
+2019-01-09 14:53:44,445----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:53:46,446----> remote_connection.py _request 10: DEBUG---> DELETE http://127.0.0.1:51755/session/167022991f6968e8735114ecffdeed56/window {"sessionId": "167022991f6968e8735114ecffdeed56"}
+2019-01-09 14:53:46,746----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:53:47,262----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:51805/session {"desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "javascriptEnabled": true, "chromeOptions": {"extensions": [], "args": []}}}
+2019-01-09 14:53:49,212----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:53:49,213----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:51805/session/b7dee43725e0ad332a3a8220efa24b67/url {"url": "http://www.5itest.cn/register?goto=/", "sessionId": "b7dee43725e0ad332a3a8220efa24b67"}
+2019-01-09 14:54:07,525----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:54:07,525----> first_ddt_case.py setUp 20: INFO---> thes is log
+2019-01-09 14:54:07,527----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:51805/session/b7dee43725e0ad332a3a8220efa24b67/element {"using": "id", "value": "register_email", "sessionId": "b7dee43725e0ad332a3a8220efa24b67"}
+2019-01-09 14:54:07,675----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:54:07,675----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:51805/session/b7dee43725e0ad332a3a8220efa24b67/element/0.20817345340257454-1/value {"value": ["t", "e", "s", "t", "0", "2", "@", "1", "6", "4", ".", "c", "o", "m"], "id": "0.20817345340257454-1", "sessionId": "b7dee43725e0ad332a3a8220efa24b67"}
+2019-01-09 14:54:07,904----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:54:07,905----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:51805/session/b7dee43725e0ad332a3a8220efa24b67/element {"using": "id", "value": "register_nickname", "sessionId": "b7dee43725e0ad332a3a8220efa24b67"}
+2019-01-09 14:54:07,932----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:54:07,933----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:51805/session/b7dee43725e0ad332a3a8220efa24b67/element/0.20817345340257454-2/value {"value": ["d", "o", "n", "g", "f", "a", "0", "2"], "id": "0.20817345340257454-2", "sessionId": "b7dee43725e0ad332a3a8220efa24b67"}
+2019-01-09 14:54:08,259----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:54:08,260----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:51805/session/b7dee43725e0ad332a3a8220efa24b67/element {"using": "id", "value": "register_password", "sessionId": "b7dee43725e0ad332a3a8220efa24b67"}
+2019-01-09 14:54:08,279----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:54:08,279----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:51805/session/b7dee43725e0ad332a3a8220efa24b67/element/0.20817345340257454-3/value {"value": ["m", "i", "m", "a", "0", "2"], "id": "0.20817345340257454-3", "sessionId": "b7dee43725e0ad332a3a8220efa24b67"}
+2019-01-09 14:54:08,532----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:54:08,533----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:51805/session/b7dee43725e0ad332a3a8220efa24b67/element {"using": "id", "value": "captcha_code", "sessionId": "b7dee43725e0ad332a3a8220efa24b67"}
+2019-01-09 14:54:08,556----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:54:08,556----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:51805/session/b7dee43725e0ad332a3a8220efa24b67/element/0.20817345340257454-4/value {"value": ["c", "o", "d", "e", "0", "2"], "id": "0.20817345340257454-4", "sessionId": "b7dee43725e0ad332a3a8220efa24b67"}
+2019-01-09 14:54:08,657----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:54:08,658----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:51805/session/b7dee43725e0ad332a3a8220efa24b67/element {"using": "id", "value": "register-btn", "sessionId": "b7dee43725e0ad332a3a8220efa24b67"}
+2019-01-09 14:54:08,677----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:54:08,677----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:51805/session/b7dee43725e0ad332a3a8220efa24b67/element/0.20817345340257454-5/click {"id": "0.20817345340257454-5", "sessionId": "b7dee43725e0ad332a3a8220efa24b67"}
+2019-01-09 14:54:09,441----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:54:09,442----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:51805/session/b7dee43725e0ad332a3a8220efa24b67/element {"using": "id", "value": "register_nickname-error", "sessionId": "b7dee43725e0ad332a3a8220efa24b67"}
+2019-01-09 14:54:09,461----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:54:11,462----> remote_connection.py _request 10: DEBUG---> GET http://127.0.0.1:51805/session/b7dee43725e0ad332a3a8220efa24b67/screenshot {"sessionId": "b7dee43725e0ad332a3a8220efa24b67"}
+2019-01-09 14:54:11,777----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:54:11,781----> remote_connection.py _request 10: DEBUG---> DELETE http://127.0.0.1:51805/session/b7dee43725e0ad332a3a8220efa24b67/window {"sessionId": "b7dee43725e0ad332a3a8220efa24b67"}
+2019-01-09 14:54:12,059----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:54:12,576----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:51870/session {"desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "javascriptEnabled": true, "chromeOptions": {"extensions": [], "args": []}}}
+2019-01-09 14:54:14,510----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:54:14,510----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:51870/session/9307a8512c475c537e88c431a34838c0/url {"url": "http://www.5itest.cn/register?goto=/", "sessionId": "9307a8512c475c537e88c431a34838c0"}
+2019-01-09 14:54:26,743----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:54:26,744----> first_ddt_case.py setUp 20: INFO---> thes is log
+2019-01-09 14:54:26,745----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:51870/session/9307a8512c475c537e88c431a34838c0/element {"using": "id", "value": "register_email", "sessionId": "9307a8512c475c537e88c431a34838c0"}
+2019-01-09 14:54:26,772----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:54:26,772----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:51870/session/9307a8512c475c537e88c431a34838c0/element/0.969761023047955-1/value {"value": ["t", "e", "s", "t", "0", "3", "@", "1", "6", "5", ".", "c", "o", "m"], "id": "0.969761023047955-1", "sessionId": "9307a8512c475c537e88c431a34838c0"}
+2019-01-09 14:54:27,032----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:54:27,034----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:51870/session/9307a8512c475c537e88c431a34838c0/element {"using": "id", "value": "register_nickname", "sessionId": "9307a8512c475c537e88c431a34838c0"}
+2019-01-09 14:54:27,063----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:54:27,063----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:51870/session/9307a8512c475c537e88c431a34838c0/element/0.969761023047955-2/value {"value": ["d", "o", "n", "g", "f", "a", "0", "3"], "id": "0.969761023047955-2", "sessionId": "9307a8512c475c537e88c431a34838c0"}
+2019-01-09 14:54:27,327----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:54:27,329----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:51870/session/9307a8512c475c537e88c431a34838c0/element {"using": "id", "value": "register_password", "sessionId": "9307a8512c475c537e88c431a34838c0"}
+2019-01-09 14:54:27,352----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:54:27,353----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:51870/session/9307a8512c475c537e88c431a34838c0/element/0.969761023047955-3/value {"value": ["m", "i", "m", "a", "0", "3"], "id": "0.969761023047955-3", "sessionId": "9307a8512c475c537e88c431a34838c0"}
+2019-01-09 14:54:27,609----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:54:27,610----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:51870/session/9307a8512c475c537e88c431a34838c0/element {"using": "id", "value": "captcha_code", "sessionId": "9307a8512c475c537e88c431a34838c0"}
+2019-01-09 14:54:27,629----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:54:27,630----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:51870/session/9307a8512c475c537e88c431a34838c0/element/0.969761023047955-4/value {"value": ["c", "o", "d", "e", "0", "3"], "id": "0.969761023047955-4", "sessionId": "9307a8512c475c537e88c431a34838c0"}
+2019-01-09 14:54:27,736----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:54:27,738----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:51870/session/9307a8512c475c537e88c431a34838c0/element {"using": "id", "value": "register-btn", "sessionId": "9307a8512c475c537e88c431a34838c0"}
+2019-01-09 14:54:27,761----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:54:27,761----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:51870/session/9307a8512c475c537e88c431a34838c0/element/0.969761023047955-5/click {"id": "0.969761023047955-5", "sessionId": "9307a8512c475c537e88c431a34838c0"}
+2019-01-09 14:54:28,531----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:54:28,532----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:51870/session/9307a8512c475c537e88c431a34838c0/element {"using": "id", "value": "register_password-error", "sessionId": "9307a8512c475c537e88c431a34838c0"}
+2019-01-09 14:54:28,556----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:54:30,557----> remote_connection.py _request 10: DEBUG---> GET http://127.0.0.1:51870/session/9307a8512c475c537e88c431a34838c0/screenshot {"sessionId": "9307a8512c475c537e88c431a34838c0"}
+2019-01-09 14:54:30,837----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:54:30,841----> remote_connection.py _request 10: DEBUG---> DELETE http://127.0.0.1:51870/session/9307a8512c475c537e88c431a34838c0/window {"sessionId": "9307a8512c475c537e88c431a34838c0"}
+2019-01-09 14:54:31,091----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:58:46,672----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52283/session {"desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "javascriptEnabled": true, "chromeOptions": {"extensions": [], "args": []}}}
+2019-01-09 14:58:48,547----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:58:48,547----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52283/session/889e4223c6e61e23d8d85aa423246d98/url {"url": "http://www.5itest.cn/register?goto=/", "sessionId": "889e4223c6e61e23d8d85aa423246d98"}
+2019-01-09 14:59:00,652----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:59:00,653----> first_ddt_case.py setUp 20: INFO---> thes is log
+2019-01-09 14:59:00,654----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52283/session/889e4223c6e61e23d8d85aa423246d98/element {"using": "id", "value": "register_email", "sessionId": "889e4223c6e61e23d8d85aa423246d98"}
+2019-01-09 14:59:00,688----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:59:00,688----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52283/session/889e4223c6e61e23d8d85aa423246d98/element/0.3852760445851926-1/value {"value": ["t", "e", "s", "t", "0", "1", "@", "1", "6", "3", ".", "c", "o", "m"], "id": "0.3852760445851926-1", "sessionId": "889e4223c6e61e23d8d85aa423246d98"}
+2019-01-09 14:59:00,918----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:59:00,920----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52283/session/889e4223c6e61e23d8d85aa423246d98/element {"using": "id", "value": "register_nickname", "sessionId": "889e4223c6e61e23d8d85aa423246d98"}
+2019-01-09 14:59:00,944----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:59:00,945----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52283/session/889e4223c6e61e23d8d85aa423246d98/element/0.3852760445851926-2/value {"value": ["d", "o", "n", "g", "f", "a", "0", "1"], "id": "0.3852760445851926-2", "sessionId": "889e4223c6e61e23d8d85aa423246d98"}
+2019-01-09 14:59:01,291----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:59:01,293----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52283/session/889e4223c6e61e23d8d85aa423246d98/element {"using": "id", "value": "register_password", "sessionId": "889e4223c6e61e23d8d85aa423246d98"}
+2019-01-09 14:59:01,322----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:59:01,322----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52283/session/889e4223c6e61e23d8d85aa423246d98/element/0.3852760445851926-3/value {"value": ["m", "i", "m", "a", "0", "1"], "id": "0.3852760445851926-3", "sessionId": "889e4223c6e61e23d8d85aa423246d98"}
+2019-01-09 14:59:01,595----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:59:01,597----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52283/session/889e4223c6e61e23d8d85aa423246d98/element {"using": "id", "value": "captcha_code", "sessionId": "889e4223c6e61e23d8d85aa423246d98"}
+2019-01-09 14:59:01,621----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:59:01,622----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52283/session/889e4223c6e61e23d8d85aa423246d98/element/0.3852760445851926-4/value {"value": ["c", "o", "d", "e", "0", "1"], "id": "0.3852760445851926-4", "sessionId": "889e4223c6e61e23d8d85aa423246d98"}
+2019-01-09 14:59:01,745----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:59:01,745----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52283/session/889e4223c6e61e23d8d85aa423246d98/element {"using": "id", "value": "register-btn", "sessionId": "889e4223c6e61e23d8d85aa423246d98"}
+2019-01-09 14:59:01,770----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:59:01,771----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52283/session/889e4223c6e61e23d8d85aa423246d98/element/0.3852760445851926-5/click {"id": "0.3852760445851926-5", "sessionId": "889e4223c6e61e23d8d85aa423246d98"}
+2019-01-09 14:59:02,933----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:59:02,934----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52283/session/889e4223c6e61e23d8d85aa423246d98/element {"using": "id", "value": "register_email-error", "sessionId": "889e4223c6e61e23d8d85aa423246d98"}
+2019-01-09 14:59:02,983----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:59:02,983----> remote_connection.py _request 10: DEBUG---> GET http://127.0.0.1:52283/session/889e4223c6e61e23d8d85aa423246d98/element/0.3852760445851926-6/text {"id": "0.3852760445851926-6", "sessionId": "889e4223c6e61e23d8d85aa423246d98"}
+2019-01-09 14:59:03,009----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:59:05,010----> remote_connection.py _request 10: DEBUG---> DELETE http://127.0.0.1:52283/session/889e4223c6e61e23d8d85aa423246d98/window {"sessionId": "889e4223c6e61e23d8d85aa423246d98"}
+2019-01-09 14:59:05,321----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:59:05,838----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52333/session {"desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "javascriptEnabled": true, "chromeOptions": {"extensions": [], "args": []}}}
+2019-01-09 14:59:07,738----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:59:07,738----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52333/session/d28e935cf557dbc4aeb01a66d62daa40/url {"url": "http://www.5itest.cn/register?goto=/", "sessionId": "d28e935cf557dbc4aeb01a66d62daa40"}
+2019-01-09 14:59:19,844----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:59:19,844----> first_ddt_case.py setUp 20: INFO---> thes is log
+2019-01-09 14:59:19,846----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52333/session/d28e935cf557dbc4aeb01a66d62daa40/element {"using": "id", "value": "register_email", "sessionId": "d28e935cf557dbc4aeb01a66d62daa40"}
+2019-01-09 14:59:19,876----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:59:19,876----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52333/session/d28e935cf557dbc4aeb01a66d62daa40/element/0.20609701713736128-1/value {"value": ["t", "e", "s", "t", "0", "2", "@", "1", "6", "4", ".", "c", "o", "m"], "id": "0.20609701713736128-1", "sessionId": "d28e935cf557dbc4aeb01a66d62daa40"}
+2019-01-09 14:59:20,104----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:59:20,105----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52333/session/d28e935cf557dbc4aeb01a66d62daa40/element {"using": "id", "value": "register_nickname", "sessionId": "d28e935cf557dbc4aeb01a66d62daa40"}
+2019-01-09 14:59:20,131----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:59:20,132----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52333/session/d28e935cf557dbc4aeb01a66d62daa40/element/0.20609701713736128-2/value {"value": ["d", "o", "n", "g", "f", "a", "0", "2"], "id": "0.20609701713736128-2", "sessionId": "d28e935cf557dbc4aeb01a66d62daa40"}
+2019-01-09 14:59:20,440----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:59:20,441----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52333/session/d28e935cf557dbc4aeb01a66d62daa40/element {"using": "id", "value": "register_password", "sessionId": "d28e935cf557dbc4aeb01a66d62daa40"}
+2019-01-09 14:59:20,466----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:59:20,466----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52333/session/d28e935cf557dbc4aeb01a66d62daa40/element/0.20609701713736128-3/value {"value": ["m", "i", "m", "a", "0", "2"], "id": "0.20609701713736128-3", "sessionId": "d28e935cf557dbc4aeb01a66d62daa40"}
+2019-01-09 14:59:20,726----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:59:20,727----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52333/session/d28e935cf557dbc4aeb01a66d62daa40/element {"using": "id", "value": "captcha_code", "sessionId": "d28e935cf557dbc4aeb01a66d62daa40"}
+2019-01-09 14:59:20,755----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:59:20,755----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52333/session/d28e935cf557dbc4aeb01a66d62daa40/element/0.20609701713736128-4/value {"value": ["c", "o", "d", "e", "0", "2"], "id": "0.20609701713736128-4", "sessionId": "d28e935cf557dbc4aeb01a66d62daa40"}
+2019-01-09 14:59:20,874----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:59:20,875----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52333/session/d28e935cf557dbc4aeb01a66d62daa40/element {"using": "id", "value": "register-btn", "sessionId": "d28e935cf557dbc4aeb01a66d62daa40"}
+2019-01-09 14:59:20,904----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:59:20,904----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52333/session/d28e935cf557dbc4aeb01a66d62daa40/element/0.20609701713736128-5/click {"id": "0.20609701713736128-5", "sessionId": "d28e935cf557dbc4aeb01a66d62daa40"}
+2019-01-09 14:59:21,916----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:59:21,917----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52333/session/d28e935cf557dbc4aeb01a66d62daa40/element {"using": "id", "value": "register_nickname-error", "sessionId": "d28e935cf557dbc4aeb01a66d62daa40"}
+2019-01-09 14:59:21,950----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:59:23,951----> remote_connection.py _request 10: DEBUG---> GET http://127.0.0.1:52333/session/d28e935cf557dbc4aeb01a66d62daa40/screenshot {"sessionId": "d28e935cf557dbc4aeb01a66d62daa40"}
+2019-01-09 14:59:24,205----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:59:24,209----> remote_connection.py _request 10: DEBUG---> DELETE http://127.0.0.1:52333/session/d28e935cf557dbc4aeb01a66d62daa40/window {"sessionId": "d28e935cf557dbc4aeb01a66d62daa40"}
+2019-01-09 14:59:24,468----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:59:24,985----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52384/session {"desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "javascriptEnabled": true, "chromeOptions": {"extensions": [], "args": []}}}
+2019-01-09 14:59:26,783----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:59:26,783----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52384/session/16929c4a6066aaf5fd91cd648e8d6347/url {"url": "http://www.5itest.cn/register?goto=/", "sessionId": "16929c4a6066aaf5fd91cd648e8d6347"}
+2019-01-09 14:59:39,406----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:59:39,406----> first_ddt_case.py setUp 20: INFO---> thes is log
+2019-01-09 14:59:39,408----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52384/session/16929c4a6066aaf5fd91cd648e8d6347/element {"using": "id", "value": "register_email", "sessionId": "16929c4a6066aaf5fd91cd648e8d6347"}
+2019-01-09 14:59:39,437----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:59:39,438----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52384/session/16929c4a6066aaf5fd91cd648e8d6347/element/0.6615686259857767-1/value {"value": ["t", "e", "s", "t", "0", "3", "@", "1", "6", "5", ".", "c", "o", "m"], "id": "0.6615686259857767-1", "sessionId": "16929c4a6066aaf5fd91cd648e8d6347"}
+2019-01-09 14:59:39,681----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:59:39,682----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52384/session/16929c4a6066aaf5fd91cd648e8d6347/element {"using": "id", "value": "register_nickname", "sessionId": "16929c4a6066aaf5fd91cd648e8d6347"}
+2019-01-09 14:59:39,707----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:59:39,708----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52384/session/16929c4a6066aaf5fd91cd648e8d6347/element/0.6615686259857767-2/value {"value": ["d", "o", "n", "g", "f", "a", "0", "3"], "id": "0.6615686259857767-2", "sessionId": "16929c4a6066aaf5fd91cd648e8d6347"}
+2019-01-09 14:59:40,067----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:59:40,067----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52384/session/16929c4a6066aaf5fd91cd648e8d6347/element {"using": "id", "value": "register_password", "sessionId": "16929c4a6066aaf5fd91cd648e8d6347"}
+2019-01-09 14:59:40,086----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:59:40,087----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52384/session/16929c4a6066aaf5fd91cd648e8d6347/element/0.6615686259857767-3/value {"value": ["m", "i", "m", "a", "0", "3"], "id": "0.6615686259857767-3", "sessionId": "16929c4a6066aaf5fd91cd648e8d6347"}
+2019-01-09 14:59:40,371----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:59:40,372----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52384/session/16929c4a6066aaf5fd91cd648e8d6347/element {"using": "id", "value": "captcha_code", "sessionId": "16929c4a6066aaf5fd91cd648e8d6347"}
+2019-01-09 14:59:40,395----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:59:40,395----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52384/session/16929c4a6066aaf5fd91cd648e8d6347/element/0.6615686259857767-4/value {"value": ["c", "o", "d", "e", "0", "3"], "id": "0.6615686259857767-4", "sessionId": "16929c4a6066aaf5fd91cd648e8d6347"}
+2019-01-09 14:59:40,506----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:59:40,507----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52384/session/16929c4a6066aaf5fd91cd648e8d6347/element {"using": "id", "value": "register-btn", "sessionId": "16929c4a6066aaf5fd91cd648e8d6347"}
+2019-01-09 14:59:40,531----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:59:40,532----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52384/session/16929c4a6066aaf5fd91cd648e8d6347/element/0.6615686259857767-5/click {"id": "0.6615686259857767-5", "sessionId": "16929c4a6066aaf5fd91cd648e8d6347"}
+2019-01-09 14:59:41,460----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:59:41,462----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52384/session/16929c4a6066aaf5fd91cd648e8d6347/element {"using": "id", "value": "register_password-error", "sessionId": "16929c4a6066aaf5fd91cd648e8d6347"}
+2019-01-09 14:59:41,485----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:59:43,485----> remote_connection.py _request 10: DEBUG---> GET http://127.0.0.1:52384/session/16929c4a6066aaf5fd91cd648e8d6347/screenshot {"sessionId": "16929c4a6066aaf5fd91cd648e8d6347"}
+2019-01-09 14:59:43,752----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 14:59:43,755----> remote_connection.py _request 10: DEBUG---> DELETE http://127.0.0.1:52384/session/16929c4a6066aaf5fd91cd648e8d6347/window {"sessionId": "16929c4a6066aaf5fd91cd648e8d6347"}
+2019-01-09 14:59:44,009----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:03:44,745----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52769/session {"desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "javascriptEnabled": true, "chromeOptions": {"extensions": [], "args": []}}}
+2019-01-09 15:03:46,662----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:03:46,662----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52769/session/f51fe6fb2a22273f4d692d4b12298a96/url {"url": "http://www.5itest.cn/register?goto=/", "sessionId": "f51fe6fb2a22273f4d692d4b12298a96"}
+2019-01-09 15:03:59,090----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:03:59,090----> first_ddt_case.py setUp 20: INFO---> thes is log
+2019-01-09 15:03:59,092----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52769/session/f51fe6fb2a22273f4d692d4b12298a96/element {"using": "id", "value": "register_email", "sessionId": "f51fe6fb2a22273f4d692d4b12298a96"}
+2019-01-09 15:03:59,117----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:03:59,118----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52769/session/f51fe6fb2a22273f4d692d4b12298a96/element/0.9535439035532447-1/value {"value": ["t", "e", "s", "t", "0", "1", "@", "1", "6", "3", ".", "c", "o", "m"], "id": "0.9535439035532447-1", "sessionId": "f51fe6fb2a22273f4d692d4b12298a96"}
+2019-01-09 15:03:59,328----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:03:59,329----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52769/session/f51fe6fb2a22273f4d692d4b12298a96/element {"using": "id", "value": "register_nickname", "sessionId": "f51fe6fb2a22273f4d692d4b12298a96"}
+2019-01-09 15:03:59,351----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:03:59,351----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52769/session/f51fe6fb2a22273f4d692d4b12298a96/element/0.9535439035532447-2/value {"value": ["d", "o", "n", "g", "f", "a", "0", "1"], "id": "0.9535439035532447-2", "sessionId": "f51fe6fb2a22273f4d692d4b12298a96"}
+2019-01-09 15:03:59,653----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:03:59,654----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52769/session/f51fe6fb2a22273f4d692d4b12298a96/element {"using": "id", "value": "register_password", "sessionId": "f51fe6fb2a22273f4d692d4b12298a96"}
+2019-01-09 15:03:59,678----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:03:59,678----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52769/session/f51fe6fb2a22273f4d692d4b12298a96/element/0.9535439035532447-3/value {"value": ["m", "i", "m", "a", "0", "1"], "id": "0.9535439035532447-3", "sessionId": "f51fe6fb2a22273f4d692d4b12298a96"}
+2019-01-09 15:03:59,929----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:03:59,930----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52769/session/f51fe6fb2a22273f4d692d4b12298a96/element {"using": "id", "value": "captcha_code", "sessionId": "f51fe6fb2a22273f4d692d4b12298a96"}
+2019-01-09 15:03:59,960----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:03:59,960----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52769/session/f51fe6fb2a22273f4d692d4b12298a96/element/0.9535439035532447-4/value {"value": ["c", "o", "d", "e", "0", "1"], "id": "0.9535439035532447-4", "sessionId": "f51fe6fb2a22273f4d692d4b12298a96"}
+2019-01-09 15:04:00,118----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:04:00,119----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52769/session/f51fe6fb2a22273f4d692d4b12298a96/element {"using": "id", "value": "register-btn", "sessionId": "f51fe6fb2a22273f4d692d4b12298a96"}
+2019-01-09 15:04:00,157----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:04:00,158----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52769/session/f51fe6fb2a22273f4d692d4b12298a96/element/0.9535439035532447-5/click {"id": "0.9535439035532447-5", "sessionId": "f51fe6fb2a22273f4d692d4b12298a96"}
+2019-01-09 15:04:01,050----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:04:01,051----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52769/session/f51fe6fb2a22273f4d692d4b12298a96/element {"using": "id", "value": "register_email-error", "sessionId": "f51fe6fb2a22273f4d692d4b12298a96"}
+2019-01-09 15:04:01,077----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:04:01,077----> remote_connection.py _request 10: DEBUG---> GET http://127.0.0.1:52769/session/f51fe6fb2a22273f4d692d4b12298a96/element/0.9535439035532447-6/text {"id": "0.9535439035532447-6", "sessionId": "f51fe6fb2a22273f4d692d4b12298a96"}
+2019-01-09 15:04:01,108----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:04:03,109----> remote_connection.py _request 10: DEBUG---> DELETE http://127.0.0.1:52769/session/f51fe6fb2a22273f4d692d4b12298a96/window {"sessionId": "f51fe6fb2a22273f4d692d4b12298a96"}
+2019-01-09 15:04:03,376----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:04:03,891----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52821/session {"desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "javascriptEnabled": true, "chromeOptions": {"extensions": [], "args": []}}}
+2019-01-09 15:04:05,710----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:04:05,710----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52821/session/36e7a96b86c42aee7efe5f4352c2130a/url {"url": "http://www.5itest.cn/register?goto=/", "sessionId": "36e7a96b86c42aee7efe5f4352c2130a"}
+2019-01-09 15:04:18,054----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:04:18,054----> first_ddt_case.py setUp 20: INFO---> thes is log
+2019-01-09 15:04:18,056----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52821/session/36e7a96b86c42aee7efe5f4352c2130a/element {"using": "id", "value": "register_email", "sessionId": "36e7a96b86c42aee7efe5f4352c2130a"}
+2019-01-09 15:04:18,081----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:04:18,081----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52821/session/36e7a96b86c42aee7efe5f4352c2130a/element/0.6120857600357865-1/value {"value": ["t", "e", "s", "t", "0", "2", "@", "1", "6", "4", ".", "c", "o", "m"], "id": "0.6120857600357865-1", "sessionId": "36e7a96b86c42aee7efe5f4352c2130a"}
+2019-01-09 15:04:18,319----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:04:18,320----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52821/session/36e7a96b86c42aee7efe5f4352c2130a/element {"using": "id", "value": "register_nickname", "sessionId": "36e7a96b86c42aee7efe5f4352c2130a"}
+2019-01-09 15:04:18,347----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:04:18,347----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52821/session/36e7a96b86c42aee7efe5f4352c2130a/element/0.6120857600357865-2/value {"value": ["d", "o", "n", "g", "f", "a", "0", "2"], "id": "0.6120857600357865-2", "sessionId": "36e7a96b86c42aee7efe5f4352c2130a"}
+2019-01-09 15:04:18,676----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:04:18,677----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52821/session/36e7a96b86c42aee7efe5f4352c2130a/element {"using": "id", "value": "register_password", "sessionId": "36e7a96b86c42aee7efe5f4352c2130a"}
+2019-01-09 15:04:18,695----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:04:18,696----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52821/session/36e7a96b86c42aee7efe5f4352c2130a/element/0.6120857600357865-3/value {"value": ["m", "i", "m", "a", "0", "2"], "id": "0.6120857600357865-3", "sessionId": "36e7a96b86c42aee7efe5f4352c2130a"}
+2019-01-09 15:04:18,955----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:04:18,956----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52821/session/36e7a96b86c42aee7efe5f4352c2130a/element {"using": "id", "value": "captcha_code", "sessionId": "36e7a96b86c42aee7efe5f4352c2130a"}
+2019-01-09 15:04:18,978----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:04:18,978----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52821/session/36e7a96b86c42aee7efe5f4352c2130a/element/0.6120857600357865-4/value {"value": ["c", "o", "d", "e", "0", "2"], "id": "0.6120857600357865-4", "sessionId": "36e7a96b86c42aee7efe5f4352c2130a"}
+2019-01-09 15:04:19,071----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:04:19,073----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52821/session/36e7a96b86c42aee7efe5f4352c2130a/element {"using": "id", "value": "register-btn", "sessionId": "36e7a96b86c42aee7efe5f4352c2130a"}
+2019-01-09 15:04:19,094----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:04:19,094----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52821/session/36e7a96b86c42aee7efe5f4352c2130a/element/0.6120857600357865-5/click {"id": "0.6120857600357865-5", "sessionId": "36e7a96b86c42aee7efe5f4352c2130a"}
+2019-01-09 15:04:19,868----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:04:19,870----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52821/session/36e7a96b86c42aee7efe5f4352c2130a/element {"using": "id", "value": "register_nickname-error", "sessionId": "36e7a96b86c42aee7efe5f4352c2130a"}
+2019-01-09 15:04:19,888----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:04:21,889----> remote_connection.py _request 10: DEBUG---> GET http://127.0.0.1:52821/session/36e7a96b86c42aee7efe5f4352c2130a/screenshot {"sessionId": "36e7a96b86c42aee7efe5f4352c2130a"}
+2019-01-09 15:04:22,177----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:04:22,184----> remote_connection.py _request 10: DEBUG---> DELETE http://127.0.0.1:52821/session/36e7a96b86c42aee7efe5f4352c2130a/window {"sessionId": "36e7a96b86c42aee7efe5f4352c2130a"}
+2019-01-09 15:04:22,475----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:04:23,000----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52889/session {"desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "javascriptEnabled": true, "chromeOptions": {"extensions": [], "args": []}}}
+2019-01-09 15:04:24,894----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:04:24,895----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52889/session/c94096358b6d8d05381cdc03ffe6b72c/url {"url": "http://www.5itest.cn/register?goto=/", "sessionId": "c94096358b6d8d05381cdc03ffe6b72c"}
+2019-01-09 15:04:37,242----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:04:37,242----> first_ddt_case.py setUp 20: INFO---> thes is log
+2019-01-09 15:04:37,243----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52889/session/c94096358b6d8d05381cdc03ffe6b72c/element {"using": "id", "value": "register_email", "sessionId": "c94096358b6d8d05381cdc03ffe6b72c"}
+2019-01-09 15:04:37,274----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:04:37,274----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52889/session/c94096358b6d8d05381cdc03ffe6b72c/element/0.728354203393385-1/value {"value": ["t", "e", "s", "t", "0", "3", "@", "1", "6", "5", ".", "c", "o", "m"], "id": "0.728354203393385-1", "sessionId": "c94096358b6d8d05381cdc03ffe6b72c"}
+2019-01-09 15:04:37,523----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:04:37,524----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52889/session/c94096358b6d8d05381cdc03ffe6b72c/element {"using": "id", "value": "register_nickname", "sessionId": "c94096358b6d8d05381cdc03ffe6b72c"}
+2019-01-09 15:04:37,545----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:04:37,545----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52889/session/c94096358b6d8d05381cdc03ffe6b72c/element/0.728354203393385-2/value {"value": ["d", "o", "n", "g", "f", "a", "0", "3"], "id": "0.728354203393385-2", "sessionId": "c94096358b6d8d05381cdc03ffe6b72c"}
+2019-01-09 15:04:37,819----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:04:37,821----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52889/session/c94096358b6d8d05381cdc03ffe6b72c/element {"using": "id", "value": "register_password", "sessionId": "c94096358b6d8d05381cdc03ffe6b72c"}
+2019-01-09 15:04:37,843----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:04:37,843----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52889/session/c94096358b6d8d05381cdc03ffe6b72c/element/0.728354203393385-3/value {"value": ["m", "i", "m", "a", "0", "3"], "id": "0.728354203393385-3", "sessionId": "c94096358b6d8d05381cdc03ffe6b72c"}
+2019-01-09 15:04:38,082----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:04:38,083----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52889/session/c94096358b6d8d05381cdc03ffe6b72c/element {"using": "id", "value": "captcha_code", "sessionId": "c94096358b6d8d05381cdc03ffe6b72c"}
+2019-01-09 15:04:38,113----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:04:38,113----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52889/session/c94096358b6d8d05381cdc03ffe6b72c/element/0.728354203393385-4/value {"value": ["c", "o", "d", "e", "0", "3"], "id": "0.728354203393385-4", "sessionId": "c94096358b6d8d05381cdc03ffe6b72c"}
+2019-01-09 15:04:38,222----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:04:38,223----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52889/session/c94096358b6d8d05381cdc03ffe6b72c/element {"using": "id", "value": "register-btn", "sessionId": "c94096358b6d8d05381cdc03ffe6b72c"}
+2019-01-09 15:04:38,244----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:04:38,245----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52889/session/c94096358b6d8d05381cdc03ffe6b72c/element/0.728354203393385-5/click {"id": "0.728354203393385-5", "sessionId": "c94096358b6d8d05381cdc03ffe6b72c"}
+2019-01-09 15:04:39,036----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:04:39,036----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:52889/session/c94096358b6d8d05381cdc03ffe6b72c/element {"using": "id", "value": "register_password-error", "sessionId": "c94096358b6d8d05381cdc03ffe6b72c"}
+2019-01-09 15:04:39,061----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:04:41,062----> remote_connection.py _request 10: DEBUG---> GET http://127.0.0.1:52889/session/c94096358b6d8d05381cdc03ffe6b72c/screenshot {"sessionId": "c94096358b6d8d05381cdc03ffe6b72c"}
+2019-01-09 15:04:41,338----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:04:41,341----> remote_connection.py _request 10: DEBUG---> DELETE http://127.0.0.1:52889/session/c94096358b6d8d05381cdc03ffe6b72c/window {"sessionId": "c94096358b6d8d05381cdc03ffe6b72c"}
+2019-01-09 15:04:41,609----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:09:49,828----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53390/session {"desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "javascriptEnabled": true, "chromeOptions": {"extensions": [], "args": []}}}
+2019-01-09 15:09:51,785----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:09:51,785----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53390/session/2be168f00af9713e3f0f933ecac5e9ee/url {"url": "http://www.5itest.cn/register?goto=/", "sessionId": "2be168f00af9713e3f0f933ecac5e9ee"}
+2019-01-09 15:10:08,758----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:10:08,758----> first_ddt_case.py setUp 20: INFO---> thes is log
+2019-01-09 15:10:08,759----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53390/session/2be168f00af9713e3f0f933ecac5e9ee/element {"using": "id", "value": "register_email", "sessionId": "2be168f00af9713e3f0f933ecac5e9ee"}
+2019-01-09 15:10:08,785----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:10:08,785----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53390/session/2be168f00af9713e3f0f933ecac5e9ee/element/0.2645381425640432-1/value {"value": ["t", "e", "s", "t", "0", "1", "@", "1", "6", "3", ".", "c", "o", "m"], "id": "0.2645381425640432-1", "sessionId": "2be168f00af9713e3f0f933ecac5e9ee"}
+2019-01-09 15:10:09,002----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:10:09,003----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53390/session/2be168f00af9713e3f0f933ecac5e9ee/element {"using": "id", "value": "register_nickname", "sessionId": "2be168f00af9713e3f0f933ecac5e9ee"}
+2019-01-09 15:10:09,029----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:10:09,029----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53390/session/2be168f00af9713e3f0f933ecac5e9ee/element/0.2645381425640432-2/value {"value": ["d", "o", "n", "g", "f", "a", "0", "1"], "id": "0.2645381425640432-2", "sessionId": "2be168f00af9713e3f0f933ecac5e9ee"}
+2019-01-09 15:10:09,346----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:10:09,347----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53390/session/2be168f00af9713e3f0f933ecac5e9ee/element {"using": "id", "value": "register_password", "sessionId": "2be168f00af9713e3f0f933ecac5e9ee"}
+2019-01-09 15:10:09,367----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:10:09,367----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53390/session/2be168f00af9713e3f0f933ecac5e9ee/element/0.2645381425640432-3/value {"value": ["m", "i", "m", "a", "0", "1"], "id": "0.2645381425640432-3", "sessionId": "2be168f00af9713e3f0f933ecac5e9ee"}
+2019-01-09 15:10:09,596----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:10:09,597----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53390/session/2be168f00af9713e3f0f933ecac5e9ee/element {"using": "id", "value": "captcha_code", "sessionId": "2be168f00af9713e3f0f933ecac5e9ee"}
+2019-01-09 15:10:09,620----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:10:09,620----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53390/session/2be168f00af9713e3f0f933ecac5e9ee/element/0.2645381425640432-4/value {"value": ["c", "o", "d", "e", "0", "1"], "id": "0.2645381425640432-4", "sessionId": "2be168f00af9713e3f0f933ecac5e9ee"}
+2019-01-09 15:10:09,725----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:10:09,726----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53390/session/2be168f00af9713e3f0f933ecac5e9ee/element {"using": "id", "value": "register-btn", "sessionId": "2be168f00af9713e3f0f933ecac5e9ee"}
+2019-01-09 15:10:09,750----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:10:09,751----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53390/session/2be168f00af9713e3f0f933ecac5e9ee/element/0.2645381425640432-5/click {"id": "0.2645381425640432-5", "sessionId": "2be168f00af9713e3f0f933ecac5e9ee"}
+2019-01-09 15:10:10,545----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:10:10,546----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53390/session/2be168f00af9713e3f0f933ecac5e9ee/element {"using": "id", "value": "register_email-error", "sessionId": "2be168f00af9713e3f0f933ecac5e9ee"}
+2019-01-09 15:10:10,566----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:10:10,566----> remote_connection.py _request 10: DEBUG---> GET http://127.0.0.1:53390/session/2be168f00af9713e3f0f933ecac5e9ee/element/0.2645381425640432-6/text {"id": "0.2645381425640432-6", "sessionId": "2be168f00af9713e3f0f933ecac5e9ee"}
+2019-01-09 15:10:10,589----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:10:12,589----> remote_connection.py _request 10: DEBUG---> DELETE http://127.0.0.1:53390/session/2be168f00af9713e3f0f933ecac5e9ee/window {"sessionId": "2be168f00af9713e3f0f933ecac5e9ee"}
+2019-01-09 15:10:12,848----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:10:13,365----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53445/session {"desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "javascriptEnabled": true, "chromeOptions": {"extensions": [], "args": []}}}
+2019-01-09 15:10:15,263----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:10:15,264----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53445/session/69495712d0e499bdca9641ccf23cf7d4/url {"url": "http://www.5itest.cn/register?goto=/", "sessionId": "69495712d0e499bdca9641ccf23cf7d4"}
+2019-01-09 15:10:31,952----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:10:31,953----> first_ddt_case.py setUp 20: INFO---> thes is log
+2019-01-09 15:10:31,954----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53445/session/69495712d0e499bdca9641ccf23cf7d4/element {"using": "id", "value": "register_email", "sessionId": "69495712d0e499bdca9641ccf23cf7d4"}
+2019-01-09 15:10:31,980----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:10:31,980----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53445/session/69495712d0e499bdca9641ccf23cf7d4/element/0.9466445229826816-1/value {"value": ["t", "e", "s", "t", "0", "2", "@", "1", "6", "4", ".", "c", "o", "m"], "id": "0.9466445229826816-1", "sessionId": "69495712d0e499bdca9641ccf23cf7d4"}
+2019-01-09 15:10:32,268----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:10:32,269----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53445/session/69495712d0e499bdca9641ccf23cf7d4/element {"using": "id", "value": "register_nickname", "sessionId": "69495712d0e499bdca9641ccf23cf7d4"}
+2019-01-09 15:10:32,296----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:10:32,297----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53445/session/69495712d0e499bdca9641ccf23cf7d4/element/0.9466445229826816-2/value {"value": ["d", "o", "n", "g", "f", "a", "0", "2"], "id": "0.9466445229826816-2", "sessionId": "69495712d0e499bdca9641ccf23cf7d4"}
+2019-01-09 15:10:32,617----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:10:32,618----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53445/session/69495712d0e499bdca9641ccf23cf7d4/element {"using": "id", "value": "register_password", "sessionId": "69495712d0e499bdca9641ccf23cf7d4"}
+2019-01-09 15:10:32,637----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:10:32,637----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53445/session/69495712d0e499bdca9641ccf23cf7d4/element/0.9466445229826816-3/value {"value": ["m", "i", "m", "a", "0", "2"], "id": "0.9466445229826816-3", "sessionId": "69495712d0e499bdca9641ccf23cf7d4"}
+2019-01-09 15:10:32,902----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:10:32,903----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53445/session/69495712d0e499bdca9641ccf23cf7d4/element {"using": "id", "value": "captcha_code", "sessionId": "69495712d0e499bdca9641ccf23cf7d4"}
+2019-01-09 15:10:32,924----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:10:32,925----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53445/session/69495712d0e499bdca9641ccf23cf7d4/element/0.9466445229826816-4/value {"value": ["c", "o", "d", "e", "0", "2"], "id": "0.9466445229826816-4", "sessionId": "69495712d0e499bdca9641ccf23cf7d4"}
+2019-01-09 15:10:33,011----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:10:33,013----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53445/session/69495712d0e499bdca9641ccf23cf7d4/element {"using": "id", "value": "register-btn", "sessionId": "69495712d0e499bdca9641ccf23cf7d4"}
+2019-01-09 15:10:33,032----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:10:33,032----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53445/session/69495712d0e499bdca9641ccf23cf7d4/element/0.9466445229826816-5/click {"id": "0.9466445229826816-5", "sessionId": "69495712d0e499bdca9641ccf23cf7d4"}
+2019-01-09 15:10:34,050----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:10:34,051----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53445/session/69495712d0e499bdca9641ccf23cf7d4/element {"using": "id", "value": "register_nickname-error", "sessionId": "69495712d0e499bdca9641ccf23cf7d4"}
+2019-01-09 15:10:34,072----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:10:36,072----> remote_connection.py _request 10: DEBUG---> GET http://127.0.0.1:53445/session/69495712d0e499bdca9641ccf23cf7d4/screenshot {"sessionId": "69495712d0e499bdca9641ccf23cf7d4"}
+2019-01-09 15:10:36,342----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:10:36,346----> remote_connection.py _request 10: DEBUG---> DELETE http://127.0.0.1:53445/session/69495712d0e499bdca9641ccf23cf7d4/window {"sessionId": "69495712d0e499bdca9641ccf23cf7d4"}
+2019-01-09 15:10:36,690----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:10:37,207----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53504/session {"desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "javascriptEnabled": true, "chromeOptions": {"extensions": [], "args": []}}}
+2019-01-09 15:10:39,047----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:10:39,047----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53504/session/59aa613a029b41b0e45b85e0e3e8e307/url {"url": "http://www.5itest.cn/register?goto=/", "sessionId": "59aa613a029b41b0e45b85e0e3e8e307"}
+2019-01-09 15:10:53,529----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:10:53,530----> first_ddt_case.py setUp 20: INFO---> thes is log
+2019-01-09 15:10:53,531----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53504/session/59aa613a029b41b0e45b85e0e3e8e307/element {"using": "id", "value": "register_email", "sessionId": "59aa613a029b41b0e45b85e0e3e8e307"}
+2019-01-09 15:10:53,561----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:10:53,562----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53504/session/59aa613a029b41b0e45b85e0e3e8e307/element/0.40444189890414317-1/value {"value": ["t", "e", "s", "t", "0", "3", "@", "1", "6", "5", ".", "c", "o", "m"], "id": "0.40444189890414317-1", "sessionId": "59aa613a029b41b0e45b85e0e3e8e307"}
+2019-01-09 15:10:53,925----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:10:53,927----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53504/session/59aa613a029b41b0e45b85e0e3e8e307/element {"using": "id", "value": "register_nickname", "sessionId": "59aa613a029b41b0e45b85e0e3e8e307"}
+2019-01-09 15:10:53,953----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:10:53,954----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53504/session/59aa613a029b41b0e45b85e0e3e8e307/element/0.40444189890414317-2/value {"value": ["d", "o", "n", "g", "f", "a", "0", "3"], "id": "0.40444189890414317-2", "sessionId": "59aa613a029b41b0e45b85e0e3e8e307"}
+2019-01-09 15:10:54,355----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:10:54,356----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53504/session/59aa613a029b41b0e45b85e0e3e8e307/element {"using": "id", "value": "register_password", "sessionId": "59aa613a029b41b0e45b85e0e3e8e307"}
+2019-01-09 15:10:54,393----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:10:54,394----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53504/session/59aa613a029b41b0e45b85e0e3e8e307/element/0.40444189890414317-3/value {"value": ["m", "i", "m", "a", "0", "3"], "id": "0.40444189890414317-3", "sessionId": "59aa613a029b41b0e45b85e0e3e8e307"}
+2019-01-09 15:10:54,689----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:10:54,691----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53504/session/59aa613a029b41b0e45b85e0e3e8e307/element {"using": "id", "value": "captcha_code", "sessionId": "59aa613a029b41b0e45b85e0e3e8e307"}
+2019-01-09 15:10:54,722----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:10:54,723----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53504/session/59aa613a029b41b0e45b85e0e3e8e307/element/0.40444189890414317-4/value {"value": ["c", "o", "d", "e", "0", "3"], "id": "0.40444189890414317-4", "sessionId": "59aa613a029b41b0e45b85e0e3e8e307"}
+2019-01-09 15:10:54,846----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:10:54,847----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53504/session/59aa613a029b41b0e45b85e0e3e8e307/element {"using": "id", "value": "register-btn", "sessionId": "59aa613a029b41b0e45b85e0e3e8e307"}
+2019-01-09 15:10:54,875----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:10:54,876----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53504/session/59aa613a029b41b0e45b85e0e3e8e307/element/0.40444189890414317-5/click {"id": "0.40444189890414317-5", "sessionId": "59aa613a029b41b0e45b85e0e3e8e307"}
+2019-01-09 15:10:56,155----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:10:56,156----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53504/session/59aa613a029b41b0e45b85e0e3e8e307/element {"using": "id", "value": "register_password-error", "sessionId": "59aa613a029b41b0e45b85e0e3e8e307"}
+2019-01-09 15:10:56,176----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:10:58,178----> remote_connection.py _request 10: DEBUG---> GET http://127.0.0.1:53504/session/59aa613a029b41b0e45b85e0e3e8e307/screenshot {"sessionId": "59aa613a029b41b0e45b85e0e3e8e307"}
+2019-01-09 15:10:58,477----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:10:58,481----> remote_connection.py _request 10: DEBUG---> DELETE http://127.0.0.1:53504/session/59aa613a029b41b0e45b85e0e3e8e307/window {"sessionId": "59aa613a029b41b0e45b85e0e3e8e307"}
+2019-01-09 15:10:58,771----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:11:00,712----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53567/session {"desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "javascriptEnabled": true, "chromeOptions": {"extensions": [], "args": []}}}
+2019-01-09 15:11:02,780----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:11:02,780----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53567/session/d68b1335584a1a0340936d3b5b2f543b/url {"url": "http://www.5itest.cn/register?goto=/", "sessionId": "d68b1335584a1a0340936d3b5b2f543b"}
+2019-01-09 15:11:19,686----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:11:19,686----> first_ddt_case.py setUp 20: INFO---> thes is log
+2019-01-09 15:11:19,688----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53567/session/d68b1335584a1a0340936d3b5b2f543b/element {"using": "id", "value": "register_email", "sessionId": "d68b1335584a1a0340936d3b5b2f543b"}
+2019-01-09 15:11:19,712----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:11:19,713----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53567/session/d68b1335584a1a0340936d3b5b2f543b/element/0.08313769708394814-1/value {"value": ["t", "e", "s", "t", "0", "1", "@", "1", "6", "3", ".", "c", "o", "m"], "id": "0.08313769708394814-1", "sessionId": "d68b1335584a1a0340936d3b5b2f543b"}
+2019-01-09 15:11:19,916----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:11:19,917----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53567/session/d68b1335584a1a0340936d3b5b2f543b/element {"using": "id", "value": "register_nickname", "sessionId": "d68b1335584a1a0340936d3b5b2f543b"}
+2019-01-09 15:11:19,937----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:11:19,937----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53567/session/d68b1335584a1a0340936d3b5b2f543b/element/0.08313769708394814-2/value {"value": ["d", "o", "n", "g", "f", "a", "0", "1"], "id": "0.08313769708394814-2", "sessionId": "d68b1335584a1a0340936d3b5b2f543b"}
+2019-01-09 15:11:20,305----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:11:20,306----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53567/session/d68b1335584a1a0340936d3b5b2f543b/element {"using": "id", "value": "register_password", "sessionId": "d68b1335584a1a0340936d3b5b2f543b"}
+2019-01-09 15:11:20,329----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:11:20,329----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53567/session/d68b1335584a1a0340936d3b5b2f543b/element/0.08313769708394814-3/value {"value": ["m", "i", "m", "a", "0", "1"], "id": "0.08313769708394814-3", "sessionId": "d68b1335584a1a0340936d3b5b2f543b"}
+2019-01-09 15:11:20,609----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:11:20,610----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53567/session/d68b1335584a1a0340936d3b5b2f543b/element {"using": "id", "value": "captcha_code", "sessionId": "d68b1335584a1a0340936d3b5b2f543b"}
+2019-01-09 15:11:20,630----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:11:20,631----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53567/session/d68b1335584a1a0340936d3b5b2f543b/element/0.08313769708394814-4/value {"value": ["c", "o", "d", "e", "0", "1"], "id": "0.08313769708394814-4", "sessionId": "d68b1335584a1a0340936d3b5b2f543b"}
+2019-01-09 15:11:20,729----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:11:20,729----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53567/session/d68b1335584a1a0340936d3b5b2f543b/element {"using": "id", "value": "register-btn", "sessionId": "d68b1335584a1a0340936d3b5b2f543b"}
+2019-01-09 15:11:20,749----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:11:20,749----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53567/session/d68b1335584a1a0340936d3b5b2f543b/element/0.08313769708394814-5/click {"id": "0.08313769708394814-5", "sessionId": "d68b1335584a1a0340936d3b5b2f543b"}
+2019-01-09 15:11:21,728----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:11:21,729----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53567/session/d68b1335584a1a0340936d3b5b2f543b/element {"using": "id", "value": "register_email-error", "sessionId": "d68b1335584a1a0340936d3b5b2f543b"}
+2019-01-09 15:11:21,750----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:11:21,750----> remote_connection.py _request 10: DEBUG---> GET http://127.0.0.1:53567/session/d68b1335584a1a0340936d3b5b2f543b/element/0.08313769708394814-6/text {"id": "0.08313769708394814-6", "sessionId": "d68b1335584a1a0340936d3b5b2f543b"}
+2019-01-09 15:11:21,806----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:11:23,807----> remote_connection.py _request 10: DEBUG---> DELETE http://127.0.0.1:53567/session/d68b1335584a1a0340936d3b5b2f543b/window {"sessionId": "d68b1335584a1a0340936d3b5b2f543b"}
+2019-01-09 15:11:24,079----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:11:24,594----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53618/session {"desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "javascriptEnabled": true, "chromeOptions": {"extensions": [], "args": []}}}
+2019-01-09 15:11:26,546----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:11:26,547----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53618/session/80cff67630201bf959a5ce5cd9625aad/url {"url": "http://www.5itest.cn/register?goto=/", "sessionId": "80cff67630201bf959a5ce5cd9625aad"}
+2019-01-09 15:11:44,677----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:11:44,677----> first_ddt_case.py setUp 20: INFO---> thes is log
+2019-01-09 15:11:44,678----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53618/session/80cff67630201bf959a5ce5cd9625aad/element {"using": "id", "value": "register_email", "sessionId": "80cff67630201bf959a5ce5cd9625aad"}
+2019-01-09 15:11:44,814----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:11:44,815----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53618/session/80cff67630201bf959a5ce5cd9625aad/element/0.9459361083643689-1/value {"value": ["t", "e", "s", "t", "0", "2", "@", "1", "6", "4", ".", "c", "o", "m"], "id": "0.9459361083643689-1", "sessionId": "80cff67630201bf959a5ce5cd9625aad"}
+2019-01-09 15:11:45,046----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:11:45,047----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53618/session/80cff67630201bf959a5ce5cd9625aad/element {"using": "id", "value": "register_nickname", "sessionId": "80cff67630201bf959a5ce5cd9625aad"}
+2019-01-09 15:11:45,076----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:11:45,077----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53618/session/80cff67630201bf959a5ce5cd9625aad/element/0.9459361083643689-2/value {"value": ["d", "o", "n", "g", "f", "a", "0", "2"], "id": "0.9459361083643689-2", "sessionId": "80cff67630201bf959a5ce5cd9625aad"}
+2019-01-09 15:11:45,380----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:11:45,381----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53618/session/80cff67630201bf959a5ce5cd9625aad/element {"using": "id", "value": "register_password", "sessionId": "80cff67630201bf959a5ce5cd9625aad"}
+2019-01-09 15:11:45,400----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:11:45,400----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53618/session/80cff67630201bf959a5ce5cd9625aad/element/0.9459361083643689-3/value {"value": ["m", "i", "m", "a", "0", "2"], "id": "0.9459361083643689-3", "sessionId": "80cff67630201bf959a5ce5cd9625aad"}
+2019-01-09 15:11:45,636----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:11:45,637----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53618/session/80cff67630201bf959a5ce5cd9625aad/element {"using": "id", "value": "captcha_code", "sessionId": "80cff67630201bf959a5ce5cd9625aad"}
+2019-01-09 15:11:45,656----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:11:45,657----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53618/session/80cff67630201bf959a5ce5cd9625aad/element/0.9459361083643689-4/value {"value": ["c", "o", "d", "e", "0", "2"], "id": "0.9459361083643689-4", "sessionId": "80cff67630201bf959a5ce5cd9625aad"}
+2019-01-09 15:11:45,748----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:11:45,750----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53618/session/80cff67630201bf959a5ce5cd9625aad/element {"using": "id", "value": "register-btn", "sessionId": "80cff67630201bf959a5ce5cd9625aad"}
+2019-01-09 15:11:45,770----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:11:45,770----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53618/session/80cff67630201bf959a5ce5cd9625aad/element/0.9459361083643689-5/click {"id": "0.9459361083643689-5", "sessionId": "80cff67630201bf959a5ce5cd9625aad"}
+2019-01-09 15:11:46,548----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:11:46,549----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53618/session/80cff67630201bf959a5ce5cd9625aad/element {"using": "id", "value": "register_nickname-error", "sessionId": "80cff67630201bf959a5ce5cd9625aad"}
+2019-01-09 15:11:46,571----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:11:48,572----> remote_connection.py _request 10: DEBUG---> GET http://127.0.0.1:53618/session/80cff67630201bf959a5ce5cd9625aad/screenshot {"sessionId": "80cff67630201bf959a5ce5cd9625aad"}
+2019-01-09 15:11:48,887----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:11:48,891----> remote_connection.py _request 10: DEBUG---> DELETE http://127.0.0.1:53618/session/80cff67630201bf959a5ce5cd9625aad/window {"sessionId": "80cff67630201bf959a5ce5cd9625aad"}
+2019-01-09 15:11:49,115----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:11:49,644----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53679/session {"desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "javascriptEnabled": true, "chromeOptions": {"extensions": [], "args": []}}}
+2019-01-09 15:11:51,489----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:11:51,489----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53679/session/21a4d12e202d5330ae23db6bf2bc1313/url {"url": "http://www.5itest.cn/register?goto=/", "sessionId": "21a4d12e202d5330ae23db6bf2bc1313"}
+2019-01-09 15:12:08,939----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:12:08,939----> first_ddt_case.py setUp 20: INFO---> thes is log
+2019-01-09 15:12:08,940----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53679/session/21a4d12e202d5330ae23db6bf2bc1313/element {"using": "id", "value": "register_email", "sessionId": "21a4d12e202d5330ae23db6bf2bc1313"}
+2019-01-09 15:12:09,041----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:12:09,041----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53679/session/21a4d12e202d5330ae23db6bf2bc1313/element/0.541325849878155-1/value {"value": ["t", "e", "s", "t", "0", "3", "@", "1", "6", "5", ".", "c", "o", "m"], "id": "0.541325849878155-1", "sessionId": "21a4d12e202d5330ae23db6bf2bc1313"}
+2019-01-09 15:12:09,264----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:12:09,265----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53679/session/21a4d12e202d5330ae23db6bf2bc1313/element {"using": "id", "value": "register_nickname", "sessionId": "21a4d12e202d5330ae23db6bf2bc1313"}
+2019-01-09 15:12:09,289----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:12:09,289----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53679/session/21a4d12e202d5330ae23db6bf2bc1313/element/0.541325849878155-2/value {"value": ["d", "o", "n", "g", "f", "a", "0", "3"], "id": "0.541325849878155-2", "sessionId": "21a4d12e202d5330ae23db6bf2bc1313"}
+2019-01-09 15:12:09,576----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:12:09,577----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53679/session/21a4d12e202d5330ae23db6bf2bc1313/element {"using": "id", "value": "register_password", "sessionId": "21a4d12e202d5330ae23db6bf2bc1313"}
+2019-01-09 15:12:09,598----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:12:09,599----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53679/session/21a4d12e202d5330ae23db6bf2bc1313/element/0.541325849878155-3/value {"value": ["m", "i", "m", "a", "0", "3"], "id": "0.541325849878155-3", "sessionId": "21a4d12e202d5330ae23db6bf2bc1313"}
+2019-01-09 15:12:09,847----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:12:09,848----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53679/session/21a4d12e202d5330ae23db6bf2bc1313/element {"using": "id", "value": "captcha_code", "sessionId": "21a4d12e202d5330ae23db6bf2bc1313"}
+2019-01-09 15:12:09,868----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:12:09,869----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53679/session/21a4d12e202d5330ae23db6bf2bc1313/element/0.541325849878155-4/value {"value": ["c", "o", "d", "e", "0", "3"], "id": "0.541325849878155-4", "sessionId": "21a4d12e202d5330ae23db6bf2bc1313"}
+2019-01-09 15:12:09,962----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:12:09,963----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53679/session/21a4d12e202d5330ae23db6bf2bc1313/element {"using": "id", "value": "register-btn", "sessionId": "21a4d12e202d5330ae23db6bf2bc1313"}
+2019-01-09 15:12:09,982----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:12:09,982----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53679/session/21a4d12e202d5330ae23db6bf2bc1313/element/0.541325849878155-5/click {"id": "0.541325849878155-5", "sessionId": "21a4d12e202d5330ae23db6bf2bc1313"}
+2019-01-09 15:12:10,734----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:12:10,735----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:53679/session/21a4d12e202d5330ae23db6bf2bc1313/element {"using": "id", "value": "register_password-error", "sessionId": "21a4d12e202d5330ae23db6bf2bc1313"}
+2019-01-09 15:12:10,755----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:12:12,756----> remote_connection.py _request 10: DEBUG---> GET http://127.0.0.1:53679/session/21a4d12e202d5330ae23db6bf2bc1313/screenshot {"sessionId": "21a4d12e202d5330ae23db6bf2bc1313"}
+2019-01-09 15:12:13,082----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:12:13,085----> remote_connection.py _request 10: DEBUG---> DELETE http://127.0.0.1:53679/session/21a4d12e202d5330ae23db6bf2bc1313/window {"sessionId": "21a4d12e202d5330ae23db6bf2bc1313"}
+2019-01-09 15:12:13,354----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:23:32,585----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:54691/session {"desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "javascriptEnabled": true, "chromeOptions": {"extensions": [], "args": []}}}
+2019-01-09 15:23:35,103----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:23:35,104----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:54691/session/b21181eb130e7eff6579d544a501e805/url {"url": "http://www.5itest.cn/register?goto=/", "sessionId": "b21181eb130e7eff6579d544a501e805"}
+2019-01-09 15:23:47,649----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:23:47,649----> first_ddt_case.py setUp 20: INFO---> thes is log
+2019-01-09 15:23:47,650----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:54691/session/b21181eb130e7eff6579d544a501e805/element {"using": "id", "value": "register_email", "sessionId": "b21181eb130e7eff6579d544a501e805"}
+2019-01-09 15:23:47,791----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:23:47,791----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:54691/session/b21181eb130e7eff6579d544a501e805/element/0.12774945981774866-1/value {"value": ["t", "e", "s", "t", "0", "1", "@", "1", "6", "3", ".", "c", "o", "m"], "id": "0.12774945981774866-1", "sessionId": "b21181eb130e7eff6579d544a501e805"}
+2019-01-09 15:23:48,023----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:23:48,025----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:54691/session/b21181eb130e7eff6579d544a501e805/element {"using": "id", "value": "register_nickname", "sessionId": "b21181eb130e7eff6579d544a501e805"}
+2019-01-09 15:23:48,046----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:23:48,047----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:54691/session/b21181eb130e7eff6579d544a501e805/element/0.12774945981774866-2/value {"value": ["d", "o", "n", "g", "f", "a", "0", "1"], "id": "0.12774945981774866-2", "sessionId": "b21181eb130e7eff6579d544a501e805"}
+2019-01-09 15:23:48,306----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:23:48,307----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:54691/session/b21181eb130e7eff6579d544a501e805/element {"using": "id", "value": "register_password", "sessionId": "b21181eb130e7eff6579d544a501e805"}
+2019-01-09 15:23:48,327----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:23:48,327----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:54691/session/b21181eb130e7eff6579d544a501e805/element/0.12774945981774866-3/value {"value": ["m", "i", "m", "a", "0", "1"], "id": "0.12774945981774866-3", "sessionId": "b21181eb130e7eff6579d544a501e805"}
+2019-01-09 15:23:48,539----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:23:48,540----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:54691/session/b21181eb130e7eff6579d544a501e805/element {"using": "id", "value": "captcha_code", "sessionId": "b21181eb130e7eff6579d544a501e805"}
+2019-01-09 15:23:48,572----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:23:48,572----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:54691/session/b21181eb130e7eff6579d544a501e805/element/0.12774945981774866-4/value {"value": ["c", "o", "d", "e", "0", "1"], "id": "0.12774945981774866-4", "sessionId": "b21181eb130e7eff6579d544a501e805"}
+2019-01-09 15:23:48,753----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:23:48,755----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:54691/session/b21181eb130e7eff6579d544a501e805/element {"using": "id", "value": "register-btn", "sessionId": "b21181eb130e7eff6579d544a501e805"}
+2019-01-09 15:23:48,797----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:23:48,797----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:54691/session/b21181eb130e7eff6579d544a501e805/element/0.12774945981774866-5/click {"id": "0.12774945981774866-5", "sessionId": "b21181eb130e7eff6579d544a501e805"}
+2019-01-09 15:23:49,644----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:23:49,646----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:54691/session/b21181eb130e7eff6579d544a501e805/element {"using": "id", "value": "register_email-error", "sessionId": "b21181eb130e7eff6579d544a501e805"}
+2019-01-09 15:23:49,664----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:23:49,665----> remote_connection.py _request 10: DEBUG---> GET http://127.0.0.1:54691/session/b21181eb130e7eff6579d544a501e805/element/0.12774945981774866-6/text {"id": "0.12774945981774866-6", "sessionId": "b21181eb130e7eff6579d544a501e805"}
+2019-01-09 15:23:49,693----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 15:23:51,693----> remote_connection.py _request 10: DEBUG---> DELETE http://127.0.0.1:54691/session/b21181eb130e7eff6579d544a501e805/window {"sessionId": "b21181eb130e7eff6579d544a501e805"}
+2019-01-09 15:23:51,973----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 16:47:35,315----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:63132/session {"desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "javascriptEnabled": true, "chromeOptions": {"extensions": [], "args": []}}}
+2019-01-09 16:47:38,339----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 16:47:38,339----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:63132/session/ea1683fb5ee4e9ec68167ca63a0b0a5d/url {"url": "http://www.5itest.cn/register?goto=/", "sessionId": "ea1683fb5ee4e9ec68167ca63a0b0a5d"}
+2019-01-09 16:47:51,563----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 16:47:51,563----> first_ddt_case.py setUp 20: INFO---> thes is log
+2019-01-09 16:47:51,564----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:63132/session/ea1683fb5ee4e9ec68167ca63a0b0a5d/element {"using": "id", "value": "register_email", "sessionId": "ea1683fb5ee4e9ec68167ca63a0b0a5d"}
+2019-01-09 16:47:51,606----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 16:47:51,606----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:63132/session/ea1683fb5ee4e9ec68167ca63a0b0a5d/element/0.600008085678555-1/value {"value": ["t", "e", "s", "t", "0", "1", "@", "1", "6", "3", ".", "c", "o", "m"], "id": "0.600008085678555-1", "sessionId": "ea1683fb5ee4e9ec68167ca63a0b0a5d"}
+2019-01-09 16:47:51,950----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 16:47:51,952----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:63132/session/ea1683fb5ee4e9ec68167ca63a0b0a5d/element {"using": "id", "value": "register_nickname", "sessionId": "ea1683fb5ee4e9ec68167ca63a0b0a5d"}
+2019-01-09 16:47:51,994----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 16:47:51,995----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:63132/session/ea1683fb5ee4e9ec68167ca63a0b0a5d/element/0.600008085678555-2/value {"value": ["d", "o", "n", "g", "f", "a", "0", "1"], "id": "0.600008085678555-2", "sessionId": "ea1683fb5ee4e9ec68167ca63a0b0a5d"}
+2019-01-09 16:47:52,462----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 16:47:52,464----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:63132/session/ea1683fb5ee4e9ec68167ca63a0b0a5d/element {"using": "id", "value": "register_password", "sessionId": "ea1683fb5ee4e9ec68167ca63a0b0a5d"}
+2019-01-09 16:47:52,511----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 16:47:52,512----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:63132/session/ea1683fb5ee4e9ec68167ca63a0b0a5d/element/0.600008085678555-3/value {"value": ["m", "i", "m", "a", "0", "1"], "id": "0.600008085678555-3", "sessionId": "ea1683fb5ee4e9ec68167ca63a0b0a5d"}
+2019-01-09 16:47:52,749----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 16:47:52,751----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:63132/session/ea1683fb5ee4e9ec68167ca63a0b0a5d/element {"using": "id", "value": "captcha_code", "sessionId": "ea1683fb5ee4e9ec68167ca63a0b0a5d"}
+2019-01-09 16:47:52,796----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 16:47:52,796----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:63132/session/ea1683fb5ee4e9ec68167ca63a0b0a5d/element/0.600008085678555-4/value {"value": ["c", "o", "d", "e", "0", "1"], "id": "0.600008085678555-4", "sessionId": "ea1683fb5ee4e9ec68167ca63a0b0a5d"}
+2019-01-09 16:47:52,970----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 16:47:52,971----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:63132/session/ea1683fb5ee4e9ec68167ca63a0b0a5d/element {"using": "id", "value": "register-btn", "sessionId": "ea1683fb5ee4e9ec68167ca63a0b0a5d"}
+2019-01-09 16:47:53,001----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 16:47:53,002----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:63132/session/ea1683fb5ee4e9ec68167ca63a0b0a5d/element/0.600008085678555-5/click {"id": "0.600008085678555-5", "sessionId": "ea1683fb5ee4e9ec68167ca63a0b0a5d"}
+2019-01-09 16:47:53,762----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 16:47:53,763----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:63132/session/ea1683fb5ee4e9ec68167ca63a0b0a5d/element {"using": "id", "value": "register_email-error", "sessionId": "ea1683fb5ee4e9ec68167ca63a0b0a5d"}
+2019-01-09 16:47:53,833----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 16:47:53,833----> remote_connection.py _request 10: DEBUG---> GET http://127.0.0.1:63132/session/ea1683fb5ee4e9ec68167ca63a0b0a5d/element/0.600008085678555-6/text {"id": "0.600008085678555-6", "sessionId": "ea1683fb5ee4e9ec68167ca63a0b0a5d"}
+2019-01-09 16:47:53,913----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 16:47:55,914----> remote_connection.py _request 10: DEBUG---> DELETE http://127.0.0.1:63132/session/ea1683fb5ee4e9ec68167ca63a0b0a5d/window {"sessionId": "ea1683fb5ee4e9ec68167ca63a0b0a5d"}
+2019-01-09 16:47:56,207----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 20:58:12,333----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:50525/session {"desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "javascriptEnabled": true, "chromeOptions": {"extensions": [], "args": []}}}
+2019-01-09 20:58:14,542----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 20:58:14,543----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:50525/session/434b393ee88b31e0943501f7707d063c/url {"url": "http://www.5itest.cn/register?goto=/", "sessionId": "434b393ee88b31e0943501f7707d063c"}
+2019-01-09 20:58:33,737----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 20:58:33,738----> first_ddt_case.py setUp 20: INFO---> thes is log
+2019-01-09 20:58:33,739----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:50525/session/434b393ee88b31e0943501f7707d063c/element {"using": "id", "value": "register_email", "sessionId": "434b393ee88b31e0943501f7707d063c"}
+2019-01-09 20:58:34,001----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 20:58:34,002----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:50525/session/434b393ee88b31e0943501f7707d063c/element/0.4199576826081066-1/value {"value": ["t", "e", "s", "t", "0", "1", "@", "1", "6", "3", ".", "c", "o", "m"], "id": "0.4199576826081066-1", "sessionId": "434b393ee88b31e0943501f7707d063c"}
+2019-01-09 20:58:34,391----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 20:58:34,392----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:50525/session/434b393ee88b31e0943501f7707d063c/element {"using": "id", "value": "register_nickname", "sessionId": "434b393ee88b31e0943501f7707d063c"}
+2019-01-09 20:58:34,430----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 20:58:34,431----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:50525/session/434b393ee88b31e0943501f7707d063c/element/0.4199576826081066-2/value {"value": ["d", "o", "n", "g", "f", "a", "0", "1"], "id": "0.4199576826081066-2", "sessionId": "434b393ee88b31e0943501f7707d063c"}
+2019-01-09 20:58:34,843----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 20:58:34,844----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:50525/session/434b393ee88b31e0943501f7707d063c/element {"using": "id", "value": "register_password", "sessionId": "434b393ee88b31e0943501f7707d063c"}
+2019-01-09 20:58:34,907----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 20:58:34,908----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:50525/session/434b393ee88b31e0943501f7707d063c/element/0.4199576826081066-3/value {"value": ["m", "i", "m", "a", "0", "1"], "id": "0.4199576826081066-3", "sessionId": "434b393ee88b31e0943501f7707d063c"}
+2019-01-09 20:58:35,220----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 20:58:35,222----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:50525/session/434b393ee88b31e0943501f7707d063c/element {"using": "id", "value": "captcha_code", "sessionId": "434b393ee88b31e0943501f7707d063c"}
+2019-01-09 20:58:35,253----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 20:58:35,253----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:50525/session/434b393ee88b31e0943501f7707d063c/element/0.4199576826081066-4/value {"value": ["c", "o", "d", "e", "0", "1"], "id": "0.4199576826081066-4", "sessionId": "434b393ee88b31e0943501f7707d063c"}
+2019-01-09 20:58:35,414----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 20:58:35,415----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:50525/session/434b393ee88b31e0943501f7707d063c/element {"using": "id", "value": "register-btn", "sessionId": "434b393ee88b31e0943501f7707d063c"}
+2019-01-09 20:58:35,445----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 20:58:35,445----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:50525/session/434b393ee88b31e0943501f7707d063c/element/0.4199576826081066-5/click {"id": "0.4199576826081066-5", "sessionId": "434b393ee88b31e0943501f7707d063c"}
+2019-01-09 20:58:36,281----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 20:58:36,282----> remote_connection.py _request 10: DEBUG---> POST http://127.0.0.1:50525/session/434b393ee88b31e0943501f7707d063c/element {"using": "id", "value": "register_email-error", "sessionId": "434b393ee88b31e0943501f7707d063c"}
+2019-01-09 20:58:36,311----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 20:58:36,312----> remote_connection.py _request 10: DEBUG---> GET http://127.0.0.1:50525/session/434b393ee88b31e0943501f7707d063c/element/0.4199576826081066-6/text {"id": "0.4199576826081066-6", "sessionId": "434b393ee88b31e0943501f7707d063c"}
+2019-01-09 20:58:36,342----> remote_connection.py _request 10: DEBUG---> Finished Request
+2019-01-09 20:58:38,343----> remote_connection.py _request 10: DEBUG---> DELETE http://127.0.0.1:50525/session/434b393ee88b31e0943501f7707d063c/window {"sessionId": "434b393ee88b31e0943501f7707d063c"}
+2019-01-09 20:58:38,714----> remote_connection.py _request 10: DEBUG---> Finished Request

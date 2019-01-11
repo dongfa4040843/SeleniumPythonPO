@@ -1,0 +1,3 @@
+test
+2019-01-04 19:14:31,588 user_log.py <module> 10 DEBUG test123456
+2019-01-04 19:16:23,179----> user_log.py <module> 10: DEBUG---> test123456
